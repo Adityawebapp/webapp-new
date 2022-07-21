@@ -1,0 +1,8 @@
+.phpbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: transparent linear-gradient(143deg, #046AC2 0%, #0B9C49 100%) 0% 0% no-repeat padding-box;
+}

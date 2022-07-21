@@ -1,0 +1,8 @@
+.nodebg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: transparent linear-gradient(143deg, #04BCC2 0%, #2474DD 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+}

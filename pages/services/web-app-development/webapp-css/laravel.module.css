@@ -1,0 +1,8 @@
+.laravelbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: transparent linear-gradient(143deg, #B604C2 0%, #DD7424 100%) 0% 0% no-repeat padding-box;
+}

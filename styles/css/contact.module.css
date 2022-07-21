@@ -1,0 +1,30 @@
+
+
+.mainContectForm{
+    
+    background:linear-gradient(0deg, rgb(0 0 0 / 96%), rgba(255, 255, 255, 0.3)), url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   height: 70vh;
+   background-position: bottom;
+ 
+}
+.btn{
+    color: #fff;
+    background: #0092ff;
+    margin: 0px;
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 13px;
+    margin-right: 20px;
+}
+
+.btn:hover{
+    color: #fff!important;
+}
+
+
+.formContainer{
+margin-top: -20rem;
+}

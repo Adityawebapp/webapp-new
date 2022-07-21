@@ -1,0 +1,61 @@
+@media (max-width: 576px) {
+  .mobile-navbar {
+    display: block;
+  }
+  #desktopNavbar {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-navbar {
+    display: block;
+  }
+  #desktopNavbar {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-navbar {
+    display: none;
+  }
+  #desktopNavbar {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mobile-navbar {
+    display: none;
+  }
+  #desktopNavbar {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .mobile-navbar {
+    display: none;
+  }
+  #desktopNavbar {
+    display: block !important;
+  }
+}
+
+
+/* =========  hover dropdown menu  ============= */
+.nav-item:hover .dropdown-toggle::after {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.hoverNone:hover{
+  color: black;
+}
+
+.active:after{
+  color: red!important;
+}

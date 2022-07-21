@@ -1,0 +1,23 @@
+
+.web_homePage {
+  color: #fff;
+}
+
+.web_homePage img{
+    height: 85vh;
+}
+.web_image {
+  position: relative;
+}
+
+.web_text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+
+.web_text h1{
+    font-size: 4rem;
+    font-weight: 7000;
+}

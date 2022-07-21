@@ -1,0 +1,11 @@
+.androidbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    height: 100%;
+    width: 100%;
+    background: transparent linear-gradient(143deg, #16A085 0%, #2474DD 100%) 0% 0% no-repeat padding-box;
+}
+
+

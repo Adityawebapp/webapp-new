@@ -1,0 +1,32 @@
+.section_head h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.same_css h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+ul li {
+  line-height: 1.2;
+  color: #5e5e5e;
+}
+
+p {
+  color: #5e5e5e;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+.same_css {
+  padding: 1rem 0;
+  text-transform: capitalize !important;
+}
+.same_css h3 {
+  text-transform: capitalize;
+}

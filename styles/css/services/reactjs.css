@@ -1,0 +1,470 @@
+
+
+.video {
+  max-height: 650px;
+  min-height: 650px;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.video img {
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  object-fit: cover;
+}
+
+.innerbanner .tenc-intro-main__wrapper {
+  background: rgba(32, 33, 34, 0.9);
+}
+
+.banner-main__wrapper p,
+.innerbanner p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.Development_on_demand {
+  display: flex;
+  place-items: center;
+  background-color: #e6e6e6;
+}
+
+
+
+.set_margin {
+  margin: 2rem 0;
+}
+
+.heading {
+  margin: 2rem 0;
+}
+
+.heading p {
+  margin: 0.5rem 0;
+}
+
+.userInterface {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize !important;
+}
+
+/* =============================================================== */
+.android-app-development-banner {
+  padding-top: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #061b31;
+  background: #061b31;
+  background: linear-gradient(45deg, #061b31 50%, #061b31 100%);
+}
+
+
+
+.right_text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize !important;
+  margin: 1rem 0;
+}
+
+.development_section h1 {
+  text-transform: capitalize !important;
+}
+
+.reactjs_text_container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.development_section h3 span {
+  color: #ae0000;
+}
+
+.tool_section h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.industry_card span i {
+  font-size: 2rem;
+  color: #666;
+}
+
+.industry_card {
+  padding: 1rem;
+  border: 2px solid rgb(238 238 238);
+  box-shadow: 0 0 7.68px 0.32px rgb(155 147 147 / 20%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.industry_card p {
+  color: #666;
+  font-size: 14px;
+  padding-top: 1.2rem;
+}
+
+.industry_card:hover {
+  background-color: #ae0000;
+  transform: translate(10px, 10px);
+  border: none;
+  -webkit-box-shadow: -17px -13px 26px -6px rgb(166 166 166 / 76%) !important;
+  -moz-box-shadow: -17px -13px 26px -6px rgb(166 166 166 / 76%) !important;
+  box-shadow: -17px -13px 26px -6px rgb(166 166 166 / 76%) !important;
+}
+
+.industry_card:hover i {
+  color: #fff !important;
+}
+
+.industry_card:hover p {
+  color: #fff !important;
+}
+
+.technologie_section .technologie_section_heading h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.main_heading h3 {
+  position: relative;
+}
+
+.main_heading h3:before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #ae0000;
+  width: 30%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  border-radius: 10px;
+}
+
+.Industries_section h2 span {
+  color: #ae0000;
+}
+.Industries_section h2 span {
+  color: #ae0000;
+}
+
+.singleImage_section {
+  background: #000;
+}
+
+.tool_section > .row {
+  text-align: center;
+}
+
+/*========= getcode preloder  ==================*/
+
+/* =========================spinner ========================================= */
+.android-app-development-banner .custom-container .main_top_header p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.main_top_header .btn:hover {
+  color: #ae0000;
+  background-color: #fff;
+}
+
+.main_top_header h2 {
+  color: #4cceff !important;
+  text-transform: capitalize;
+}
+
+.main_top_header .idea_button {
+  background-color: #ae0000;
+  color: white;
+  transition: 0.5s;
+}
+
+.main_top_header p a {
+  background-color: #ae0000;
+  color: white;
+  font-size: 20px;
+  padding: 11px 39px;
+  border-radius: 10px;
+}
+
+/* ======================================================================================= */
+
+.moreBtn {
+  padding: 15px 5px;
+  display: inline-block;
+  text-align: center;
+  width: 267px !important;
+}
+
+.card {
+  border: 0;
+  border-radius: 1.25rem;
+}
+.projects-card-height{
+  height: 17rem;
+}
+
+
+.development_card p {
+  font-size: 16px !important;
+}
+
+.development_card h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* ===================================== */
+.language_grid {
+  display: flex;
+  justify-content: center;
+}
+
+.language_body {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  background-color: #f9f9f9;
+}
+
+.language_grid .language_body {
+  margin: 0 0 30px;
+  height: 140px;
+  width: 140px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.peragraph {
+  color: gray;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.h3_heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: capitalize !important;
+  margin: 1rem 0;
+}
+
+
+
+.bluedesign {
+  /* background-image: url(../../../assets/images/servies/pages/iosbg.png); */
+  background-position: center;
+  position: relative;
+}
+
+.bluedesign_text {
+  position: absolute;
+  top: 0;
+}
+
+/* ========================  =================================== */
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.m-height-170 .mhbox {
+  min-height: 170px;
+}
+
+.web-why-choose-inner-icon {
+  width: 75px;
+  height: 75px;
+  -webkit-box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+  border-radius: 100%;
+  line-height: 75px;
+  text-align: center;
+  margin-top: -57px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.web-why-choose-inner-icon svg {
+  width: 44px;
+  height: 44px;
+}
+
+.web-why-choose-inner-icon svg {
+  width: 44px;
+  height: 44px;
+}
+
+.web-why-choose-us-inner-box p {
+  font-size: 16px !important;
+}
+
+
+
+.web-why-choose-us-inner-box {
+  border: 1px solid #ecedee;
+  -webkit-box-shadow: 0 1px 5px 0 rgb(72 73 121 / 15%);
+  -moz-box-shadow: 0 1px 5px 0 rgba(72, 73, 121, 0.15);
+  box-shadow: 0 1px 5px 0 rgb(72 73 121 / 15%);
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px 20px 20px;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+text-align: center;
+}
+
+.web-why-choose-us-inner-box p:last-child {
+  margin-bottom: 0;
+}
+
+.web-why-choose-us-inner-box p {
+  clear: both;
+}
+
+.web-why-choose-us-inner-box:hover .web-why-choose-inner-icon {
+  border: 1px solid #ae0000;
+  fill: white;
+  background-color: #ae0000;
+}
+
+.web-why-choose-us-inner-box:hover .web-why-choose-inner-icon i {
+  color: white;
+  background-color: #ae0000;
+}
+
+.web-why-choose-us-inner-box:hover {
+  border: 1px solid #ae0000;
+}
+
+
+
+.top_text p {
+  font-size: 1.2rem;
+}
+
+
+.small_button button {
+  font-size: 1rem !important;
+}
+
+/* =================== ======================================================================================================== */
+
+
+.header_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: transparent linear-gradient(143deg, #04bcc2 0%, #2474dd 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.Development_on_demand .Development_on_demand_image img {
+  animation: featureImgBounce 5s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+}
+
+.header_img:before {
+  background-image: linear-gradient(
+    40deg,
+    #61dbfb 20%,
+    #000000 100%
+  ) !important;
+  box-shadow: 0px 20px 60px 0px rgb(244 151 190 / 80%) !important;
+}
+
+
+
+.hire_development_process .development_section h3 {
+  color: #fff;
+}
+.hire_development_process .development_section p {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.card-products-height{
+  height: 32rem;
+}
+
+/* ============================================ */
+
+@media (max-width: 576px) {
+  .header_top {
+    width: 100%;
+    height: auto !important;
+  }
+  .flex-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .top_text {
+    text-align: center;
+  }
+
+  .web-why-choose-us-inner-box h2 {
+    font-size: 1.5rem !important;
+    font-weight: 400;
+    margin: 2rem 0 1rem 0;
+    line-height: normal;
+  }
+
+  .projects-card-height{
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header_top {
+    height: auto !important;
+    padding: 2rem;
+  }
+
+  .center_image {
+    display: flex;
+    align-items: center;
+  }
+}

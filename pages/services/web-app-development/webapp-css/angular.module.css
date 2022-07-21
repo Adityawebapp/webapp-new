@@ -1,0 +1,19 @@
+.angularbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: transparent linear-gradient(143deg, #5E04C2 0%, #CB24DD 100%) 0% 0% no-repeat padding-box;
+}
+
+.webIcon{
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: calc(100% - 75px);
+    float: left;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    transition: all .3s ease-in-out;
+
+}

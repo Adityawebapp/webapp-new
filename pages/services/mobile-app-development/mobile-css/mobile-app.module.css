@@ -1,0 +1,23 @@
+.image{
+  height: 90vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.web_image {
+  position: relative;
+  z-index: -2;
+}
+
+.web_text {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+
+.web_text h1{
+  font-size: 4rem;
+  font-weight: 7000;
+  color: #fff;
+}

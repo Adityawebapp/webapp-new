@@ -1,0 +1,48 @@
+@media (max-width: 576px) {
+
+
+  
+    .MobileEmailnon{
+      display: none!important;
+    }
+
+    .mobileNumber span{
+      font-size: 15px;
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    .mobile_dotted {
+      display: none;
+    }
+  
+    .dotted-line {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mobile_dotted {
+      display: none;
+    }
+  
+    .dotted-line {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .mobile_dotted {
+      display: none;
+    }
+  
+    .dotted-line {
+      display: block;
+    }
+  }
+  
+
+  .TopNavbarr{
+    background-color: #e1e1e1;
+  }

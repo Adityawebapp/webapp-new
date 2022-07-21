@@ -1,0 +1,8 @@
+.flutterbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #8b5701, #726407, #586d22, #3f733d, #277657);
+}

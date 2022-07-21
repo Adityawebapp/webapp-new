@@ -1,0 +1,12 @@
+.iotbg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: transparent linear-gradient(143deg, #8360C3 0%, #2474DD 100%) 0% 0% no-repeat padding-box;
+}
+
+.iotbg p{
+    color:rgb(255, 255, 255);
+}

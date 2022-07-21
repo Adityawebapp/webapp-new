@@ -1,0 +1,171 @@
+.Industries-content {
+    position: relative;
+  }
+  .Industries-content .shadow-box {
+    position: relative;
+    height: 80px;
+    width: auto;
+    border: 1px solid #000000;
+    border-radius: 59px;
+    padding: 10px;
+    margin-bottom: 30px;
+    max-width: 400px;
+    transition: all ease 0.3s;
+    background-color: #ffffff;
+  }
+  
+  .Industries-icon-left {
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
+    background-color: #fff;
+    display: inline-block;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    border: 1px solid black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Industries-icon-right {
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Industries-icon-left svg,
+  .Industries-icon-right svg {
+    width: 50px !important;
+  }
+  
+  .Industries-content .Industries-icon-right,
+  .Industries-icon-left .Industries-content .Industries-title,
+  .Industries-content svg,
+  div.navbar.bootsnav.navbar-fixed-top {
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .Industries-title {
+    text-align: center;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    line-height: 1.2;
+  }
+  
+  .industory_we_serve {
+    /* background-color: #f5f5f5; */
+    background-size: cover;
+    position: relative;
+  }
+  
+  .industory_we_serve h1 {
+    line-height: 2.5rem;
+    margin: 0 0 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .industory-bg-icon{
+    position: absolute;
+    top: 6%;
+    left: 29%;
+  
+  
+  }
+  
+  .industory-bg-icon2{
+    position: absolute;
+    top: 6%;
+    right: 29%;
+  
+  
+  }
+  
+  .industory-bg-icon3{
+    position: absolute;
+    bottom: 6%;
+    right: 29%;
+  }
+  
+  .industory-bg-icon4{
+    position: absolute;
+    bottom: 9%;
+    left: 2%;
+  }
+  
+  
+  
+  
+  .industory_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+  /* logo image animation  */
+
+.main-spinner {
+  position: absolute;
+}
+
+.spinner {
+  margin: auto;
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid red;
+  border-bottom: none;
+  border-left: none;
+  animation: spin 4.5s infinite linear reverse;
+}
+.spinner .spinner2 {
+  display: flex;
+  border-color: blueviolet;
+  margin: 8px auto;
+  height: 250px;
+  width: 250px;
+  animation: spin 2s infinite linear;
+}
+.spinner .spinner3 {
+  border-color: rgb(0, 0, 0);
+  margin: 7px auto;
+  height: 230px;
+  width: 230px;
+  animation: spin 1s infinite linear reverse;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
