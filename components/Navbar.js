@@ -48,7 +48,7 @@ const Navbar = () => {
 
 
       <motion.nav
-        className="navbar navbar-expand-lg bg-dark p-0"
+        className="navbar navbar-expand-lg bg-dark p-2"
         id="desktopNavbar"
         initial={{ y: "0", opacity: 0 }}
         animate={{ y: "-20", opacity: 1, delay: 20 }}
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <motion.a
                   whileHover={{ originX: 0, scale: 1.05 }}
                   whileTap={{ scale: 1.1 }}
-                  className="nav-link dropdown-toggle  mx-2 "
+                  className="nav-link dropdown-toggle  mx-2"
                   id="companyId"
                   role="button"
                   data-bs-toggle="dropdownt"
@@ -79,37 +79,39 @@ const Navbar = () => {
                 >
                   Company
                 </motion.a>
-                <motion.ul
+                <ul
+                style={{borderRadius: "10px"}}
                   className="dropdown-menu"
                   aria-labelledby="companyId"
                 >
                   <li>
-                    <Link href="/company/about">
+                    <Link href="/company/about" >
 
                       <mkota className="dropdown-item pointer">
-                     <BsFillPeopleFill size={25} style={{marginRight:"15px"}} className="mb-1 mr-3"/>   Who We Are?
+                     <BsFillPeopleFill size={20} style={{marginRight:"15px"}} className="mb-1 mr-3" /> <span style={{fontSize:"14px"}}> Who We Are?  </span>  
                       </mkota>
                     </Link>
                   </li>
                   <li>
                     <Link href="/company/career">
-                      <a className="dropdown-item mr-5"> <MdEmojiPeople style={{marginRight:"15px"}} size={25}/>  Career</a>
+                      <a className="dropdown-item mr-5"> <MdEmojiPeople style={{marginRight:"15px"}} size={20}/>  <span style={{fontSize:"14px"}}>Career</span>  </a>
                     </Link>
                   </li>
-                </motion.ul>
+                </ul>
               </li>
 
-              <li className="nav-item my-1 dropdown has-megamenu text-white ">
+              <li className="nav-item my-1 dropdown has-megamenu text-white " >
                 <motion.a
                   whileHover={{ originX: 0, scale: 1.05 }}
                   whileTap={{ scale: 1.1 }}
                   href="#"
                   className="nav-link dropdown-toggle "
+                 
                   // data-bs-toggle="dropdown"
                 >
                   Services
                 </motion.a>
-                <div className="dropdown-menu megamenu "  style={{ top: "initial!important"}} role="menu">
+                <div className="dropdown-menu megamenu "  style={{ top: "initial!important",borderRadius: "10px"}} role="menu" >
                   <div className="row">
                     <div className="col mb-4">
                       <div className="row">
@@ -123,7 +125,7 @@ const Navbar = () => {
                                 src="/images/clients/app-development.png"
                                 alt=""
                               />
-                              <h6 className="font-weight-bold text-uppercase d-flex mx-3">
+                              <h6 className="font-weight-bold text-uppercase d-flex mx-3 fs-15">
                                 Mobile App <br />
                                 Development
                               </h6>
@@ -140,7 +142,6 @@ const Navbar = () => {
                                 originX: 0,
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
                               }}
                               transition={{ type: "spring", stifness: 900 }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
@@ -162,7 +163,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -183,7 +184,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -210,7 +211,7 @@ const Navbar = () => {
                               src="/images/clients/browser-web-design-svgrepo-com.png"
                               alt=""
                             />
-                            <h6 className="font-weight-bold text-uppercase d-flex mx-3">
+                            <h6 className="font-weight-bold text-uppercase d-flex mx-3 fs-15">
                               Web <br />
                               Development
                             </h6>
@@ -225,7 +226,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -247,7 +248,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -268,7 +269,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -289,7 +290,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -310,7 +311,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -331,7 +332,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -358,7 +359,7 @@ const Navbar = () => {
                               src="/images/clients/game-development.png"
                               alt=""
                             />
-                            <h6 className="font-weight-bold text-uppercase d-flex mx-3">
+                            <h6 className="font-weight-bold text-uppercase d-flex mx-3 fs-15">
                               Game <br />
                               Development
                             </h6>
@@ -373,7 +374,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -394,7 +395,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -421,7 +422,7 @@ const Navbar = () => {
                               src="/images/clients/Concept-design.png"
                               alt=""
                             />
-                            <h6 className="font-weight-bold text-uppercase d-flex mx-3">
+                            <h6 className="font-weight-bold text-uppercase d-flex mx-3 fs-15">
                               User <br />
                               Experience
                             </h6>
@@ -436,7 +437,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -455,7 +456,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -482,7 +483,7 @@ const Navbar = () => {
                               src="/images/clients/latest tech.png"
                               alt=""
                             />
-                            <h6 className="text-uppercase d-flex mx-2">
+                            <h6 className="text-uppercase d-flex mx-2 fs-15">
                               Latest <br />
                               Technologies
                             </h6>
@@ -497,7 +498,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -516,7 +517,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -535,7 +536,7 @@ const Navbar = () => {
                               whileHover={{
                                 originX: 0,
                                 scale: 1.1,
-                                textShadow: "0px 0px 4px gray",
+                                
                               }}
                               className="nav-link text-small pb-0 d-flex align-content-center pointer"
                             >
@@ -561,7 +562,7 @@ const Navbar = () => {
                     whileTap={{ scale: 0.9 }}
                     className="nav-link pointer"
                   >
-                    Product
+                    Projects
                   </motion.a>
                 </Link>
               </li>
@@ -572,6 +573,7 @@ const Navbar = () => {
                     whileHover={{ originX: 0, scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     className="nav-link pointer"
+ 
                   >
                     Contact
                   </motion.a>
@@ -580,13 +582,11 @@ const Navbar = () => {
 
               <li className="nav-item my-1 text-white  mx-2 ">
                 <Link href="/quote">
-                  <motion.a
-                    whileHover={{ originX: 0, scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="nav-link pointer"
+                  <a className="nav-link pointer quote_btn"
+              
                   >
                     Get Quote
-                  </motion.a>
+                  </a>
                 </Link>
               </li>
             </ul>

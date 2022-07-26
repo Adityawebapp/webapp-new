@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -34,11 +35,12 @@ Web development companies uk"
 
       <div className={styles.web_homePage}>
         <div className={styles.web_image}>
-          <Image
-            width={2000}
-            height={1000}
+          <img
+             width="100%"
+             style={{height: "90vh",backgroundSize: "cover"}}
             src="/images/servies/pagesImage/Website-Development.png"
             alt="Website-Development"
+
           />
           <div className={styles.web_text}>
             <h1>

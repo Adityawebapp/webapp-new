@@ -65,7 +65,7 @@ const Footer = () => {
       />
 
       <footer>
-        <div className="container">
+        <div className="container pt-5">
           <div className="contact_info">
             <div className="row justify-content-center">
               <div className="col-sm-12 col-md-6 col-lg-3 text-sm-center">
@@ -81,10 +81,10 @@ const Footer = () => {
 
                 <div className="row  justify-content-center mt-4">
                   <div className="col-lg-2 col-md-2 col-sm-0 d-flex align-items-center">
-                    <BsFillTelephoneForwardFill size={30} color="#ae0000" />
+                    <BsFillTelephoneForwardFill size={20} color="#ae0000" />
                   </div>
                   <div className="col-lg-8 col-md-8  col-sm-4">
-                    <p className=" text-white mt-2">
+                    <p className=" text-white mt-2 mb-0">
                       <span className="ml-2 number"> 0800 001 6001 </span>
                     </p>
                     <p className=" text-white">
@@ -95,7 +95,7 @@ const Footer = () => {
 
                 <div className="row justify-content-center mt-4">
                   <div className="col-lg-2 col-md-2  col-sm-0  d-flex align-items-center">
-                    <HiMailOpen size={30} color="#ae0000" />
+                    <HiMailOpen size={25} color="#ae0000" />
                   </div>
                   <div className="col-lg-8 col-md-8 col-sm-4">
                     <p className=" text-white m-0">
@@ -106,7 +106,7 @@ const Footer = () => {
               </div>
 
               <div className="col-md-3 col-lg-2  mx-auto mb-sm-4 mb-lg-4 mt-lg-0 mt-md-0 mt-sm-5 text-white quick-link   text-sm-center text-lg-start text-md-start">
-                <h6 className="text-uppercase fw-bold mb-4 ">
+                <h6 className=" fw-bold mb-4 ">
                   <span className="bottom_Textline_center position-relative">
                     Quick Links
                   </span>
@@ -160,7 +160,7 @@ const Footer = () => {
               </div>
 
               <div className="col-md-3 col-lg-2  mx-auto mb-4 text-white text-sm-center text-lg-start text-md-start">
-                <h6 className="text-uppercase fw-bold mb-4 ">
+                <h6 className=" fw-bold mb-4 ">
                   <span className="bottom_Textline_center position-relative">
                     Services
                   </span>
@@ -196,13 +196,13 @@ const Footer = () => {
               <div className="col-sm-12 col-md-6 col-lg-3  text-sm-center">
                 <div className="row">
                   <div className="col-4 d-flex justify-content-center">
-                    <div className="country_flag mb-3 d-flex align-items-center justify-content-center float-left ">
+                    <div className="country_flag mb-3 ">
+                      <p className="text-white m-0">London</p>
                       <img
                         width="30px"
                         src="/images/icon/london-bridge.png"
                         alt=""
                       />
-                      <p className="text-white m-0">London</p>
                     </div>
                   </div>
 
@@ -225,9 +225,9 @@ const Footer = () => {
 
                 <div className="row  mt-4">
                   <div className="col-4 d-flex justify-content-center">
-                    <div className="country_flag mb-3 d-flex align-items-center justify-content-center float-left ">
-                      <img width="30px" src="/images/icon/windsor.png" alt="" />
+                    <div className="country_flag mb-3 ">
                       <p className="text-white m-0">Bracknell</p>
+                      <img width="30px" src="/images/icon/windsor.png" alt="" />
                     </div>
                   </div>
 
@@ -253,13 +253,13 @@ const Footer = () => {
 
                 <div className="row mt-4">
                   <div className="col-4 d-flex justify-content-center">
-                    <div className="country_flag mb-3 d-flex align-items-center justify-content-center float-left ">
+                    <div className="country_flag mb-3 ">
+                      <p className="text-white m-0">India</p>
                       <img
                         width="30px"
                         src="/images/icon/india-gate.svg"
                         alt=""
                       />
-                      <p className="text-white m-0">India</p>
                     </div>
                   </div>
 
@@ -285,7 +285,7 @@ const Footer = () => {
 
           <div className="quick_links_outer mt-5">
             <div className="row">
-              <div className="col-md-6 col-lg-4 col-sm-12 mx-auto mb-4 text-white">
+              <div className="col-md-6 col-lg-4 col-sm-12 mx-auto text-white">
                 <p className="mb-2 text-white fw-100">
                   Stay connected with our latest insights
                 </p>
@@ -308,18 +308,18 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-md-3 col-lg-4 d-flex  mx-auto mb-4 text-white footer_icon_badge">
+              <div className="col-md-3 col-lg-4 d-flex  mx-auto  text-white footer_icon_badge">
                 <div className="d-flex">
                   <img
                     style={{ marginRight: "3rem" }}
-                    width="50%"
-                    height="50%"
+                    width="100%"
+                    height="60%"
                     src="/images/footer/badge1.png"
                     alt="badge"
                   />
                   <img
-                    width="50%"
-                    height="50%"
+                    width="100%"
+                    height="60%"
                     src="/images/footer/appfutura-badge.png"
                     alt="fh"
                   />

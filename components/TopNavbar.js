@@ -19,7 +19,7 @@ const TopNavbar = () => {
                     src="/images/icon/uk_logo.png"
                     alt="uk"
                   />
-                  <span>0800 0016001</span>
+                  <span className="fs-6">0800 0016001</span>
                 </div>
               </div>
               <div className={styles.mobileNumber}>
@@ -30,13 +30,13 @@ const TopNavbar = () => {
                     src="/images/icon/indialogo.png"
                     alt="indialogo"
                   />
-                  <span>+91 120-4549471</span>
+                  <span className="fs-6">+91 120-4549471</span>
                 </div>
               </div>
               <div className={styles.MobileEmailnon}>
                 <div className="d-flex align-items-center mx-3">
                   <HiMail size={30} color="#ae0000" className="mx-2" />
-                  <a className="pl-4" href="mailto:contact@example.com">
+                  <a className="pl-4 fs-6" href="mailto:contact@example.com">
                     info@webapp.world
                   </a>
                 </div>

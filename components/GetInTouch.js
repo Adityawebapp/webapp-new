@@ -60,8 +60,8 @@ const GetInTouch = () => {
       />
 
       <section>
-        <div className="container-fluid  py-5 min-vh-100 d-flex flex-column">
-          <div className="my-5 getInTouch wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container-fluid   d-flex flex-column bg-gray">
+          <div className="my-5  wow fadeInUp" data-wow-delay="0.1s">
             <div className="p-5">
               <div className="row justify-content-around">
                 <div className="col-lg-3 col-sm-12 col-md-3  getInTouch_heading">

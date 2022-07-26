@@ -1,18 +1,27 @@
 
 .inputForm-design{
+
     border-radius: 50px;
-    background-color: #E10202;
-    color: rgba(255, 255, 255, 0.744);
-    border : 0px solid #ced4da;
+    background-color: #ffffff;
+    border: 1px solid #ae0000;
     padding: 1.4rem 1.25rem;
     display: block;
     width: 100%;
     height: calc(2.25rem + 25px);
     font-size: 1rem;
   }
+
+  .form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 1px #ae0000!important;
+    border-color: #ae0000!important;
+    border: 0px solid #ae0000;
+    color: black;
+}
+
   
   .inputForm-design::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(67, 67, 67);
     font-weight: 300;
   }
   

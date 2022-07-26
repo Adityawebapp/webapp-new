@@ -10,7 +10,7 @@ const CompanyProduct = () => {
         <div className="container" id="logoMarqueeSection">
           <div className="default-content-container flex items-center">
             <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-              <div className="marquee" style={{ animationDuration: "57s" }}>
+              <div className="marquee" style={{ animationDuration: "57s"}}>
                 <a target="_blank">
                   <img
                     width={150}

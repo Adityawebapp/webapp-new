@@ -16,3 +16,11 @@
   bottom: 10%;
   left: 5%;
 }
+
+
+.web_text h1{
+  color: #ffff;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1;
+}

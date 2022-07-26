@@ -1,5 +1,5 @@
 .image{
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   overflow-x: hidden;
 }
@@ -20,4 +20,5 @@
   font-size: 4rem;
   font-weight: 7000;
   color: #fff;
+  line-height: 1;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -30,9 +31,9 @@ Trends in software application"
 
       <div className={styles.web_homePage}>
         <div className={styles.web_image}>
-          <Image
-            width={2000}
-            height={1000}
+          <img
+             width="100%"
+             style={{height: "90vh",backgroundSize: "cover"}}
             src="/images/servies/pagesImage/latest-technologies.png"
             alt="latest-technologies"
           />

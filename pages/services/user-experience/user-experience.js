@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import Link from "next/link";
 
 const UserExperience = () => {
   return (
@@ -142,12 +143,10 @@ User experience examples"
                     </p>
                   </div>
 
-                  <a
-                    className="nav-link moreBtn nav-link mt-5"
-                    routerLink="/user-experience/wireframe-design"
-                  >
+                  <Link href="/user-experience/user-experience">  
+                   <a className={styles.morebtn}>
                     Read More<i className="ti-arrow-right"></i>
-                  </a>
+                  </a></Link>
                 </div>
               </div>
 
@@ -168,14 +167,14 @@ User experience examples"
                       designs. Our solutions are the way to provide your
                       customers with a seamless experience.
                     </p>
+
+                   <Link href="/user-experience/user-experience">  
+                   <a className={styles.morebtn}>
+                    Read More<i className="ti-arrow-right"></i>
+                  </a></Link>
                   </div>
 
-                  <a
-                    className="nav-link moreBtn nav-link mt-5"
-                    routerLink="/user-experience/ui-ux-design"
-                  >
-                    Read More<i className="ti-arrow-right"></i>
-                  </a>
+                
                 </div>
                 <div className="col-md-5 wow fadeInRight" data-wow-delay="0.1s">
                   <Image

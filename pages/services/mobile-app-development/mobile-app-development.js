@@ -35,6 +35,7 @@ Web developers UK"
       <div className={styles.web_homePage}>
         <div className={styles.web_image}>
           <img
+            width="100%"
             src="/images/servies/pagesImage/Mobile-APP-Development-Company.png"
             alt="Mobile-APP-Development-Company"
           />
@@ -43,8 +44,7 @@ Web developers UK"
               MOBILE APP
               <br />
               <span className="bottom_Textline_center position-relative">
-                {" "}
-                DEVELOPMENT{" "}
+                DEVELOPMENT
               </span>
             </h1>
           </div>

@@ -9,7 +9,7 @@ const ProcessWeFollow = () => {
         <div className="follow_process my-5">
           <div className="text-center">
             <h1>
-              <span>Process We </span>
+              <span className="mycolor">Process We </span>
               <span className="bottom_Textline_center position-relative">
                 Follow
               </span>
@@ -91,7 +91,7 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
+              <div className=" dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
                 <img src="/images/homeImage/gif/line-2.gif" alt="" />
               </div>
 
@@ -176,7 +176,7 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
+              <div className=" dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
                 <img src="/images/homeImage/gif/line-4.gif" alt="" />
               </div>
 
@@ -264,7 +264,7 @@ const ProcessWeFollow = () => {
                 </div>
               </div>
 
-              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line text-center rotate-image">
+              <div className="text-center dotted-line d-sm-none d-md-block d-lg-block dotted-line  rotate-image">
                 <img src="/images/homeImage/gif/line-6.gif" alt="" />
               </div>
 

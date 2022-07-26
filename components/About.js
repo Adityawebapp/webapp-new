@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import Head from "next/head";
-import about from "/images/servies/pagesImage/home-page-aboutus.png";
 import Slider from "react-slick";
 
 const About = () => {
@@ -45,10 +44,11 @@ const About = () => {
             </div>
 
             <div className="col-md-6">
-              <Image
+              <img
+                
                 className="img-fluid"
-                src={about}
-                alt="home-page-aboutus"
+                alt="home-page-aboutus.png"
+                src="/images/servies/pagesImage/home-page-aboutus.png"
               />
             </div>
           </div>

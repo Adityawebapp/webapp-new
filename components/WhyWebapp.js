@@ -7,7 +7,7 @@ const WhyWebapp = () => {
   return (
     <>
       <section>
-        <div className="why_webapp py-5 test  wow zoomInUp">
+        <div className="why_webapp py-5 test  wow zoomInUp bg-gray">
           <div className="container">
             <div className="row">
               <div className="col-md-6">

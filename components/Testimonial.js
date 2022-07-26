@@ -22,7 +22,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div style={{ padding: "80px 30px", textAlign: "center",overflow: "hidden" }}>
+      <div style={{padding:"20px 0", textAlign: "center",overflow: "hidden" }}>
         <div  className="section_title py-4">
           <h1 >
             <span  className="mycolor"> WHAT OUR CLIENTS </span>
@@ -43,32 +43,32 @@ const Testimonial = () => {
         >
           <div className={styles.uppertestiImage}>
             <img
-              width="120"
-              height="120"
+              width="160"
+              height="160"
               src="/images/testimonial/chritina Dragoi.png"
               alt=""
             />
           </div>
           <div className={styles.uppertestiImage}>
             <img
-              width="120"
-              height="120"
+              width="160"
+              height="160"
               src="/images/testimonial/Ivan Loorced.png"
               alt=""
             />
           </div>
           <div className={styles.uppertestiImage}>
             <img
-              width="120"
-              height="120"
+              width="160"
+              height="160"
               src="/images/testimonial/Yohei Kamakashi.png"
               alt=""
             />
           </div>
           <div className={styles.uppertestiImage}>
             <img
-              width="120"
-              height="120"
+              width="160"
+              height="160"
               src="/images/testimonial/Paula Brown.png"
               alt=""
             />
@@ -76,8 +76,8 @@ const Testimonial = () => {
           <div className={`${styles.uppertestiImage}`}>
             <img
               className="rounded-circle"
-              width="120"
-              height="120"
+              width="160"
+              height="160"
               src="/images/testimonial/SEAN WILLIAMS.jpg"
               alt=""
             />
@@ -88,14 +88,14 @@ const Testimonial = () => {
           arrows={false}
           asNavFor={nav2}
           ref={slider1}
-          className="text-center mt-5"
+          className="text-center"
         >
           <div>
             <div className="row justify-content-center">
               <div className="col-7">
                 <div className="quotes"></div>
                 <h2>Christina Dragoi</h2>
-                <h5 className="">Germany</h5>
+                <p className="">Germany</p>
                 <span className="star">
                   <AiFillStar size={25} color="yellow" />
                   <AiFillStar size={25} color="yellow" />
@@ -117,7 +117,7 @@ const Testimonial = () => {
             <div className="row justify-content-center">
               <div className="col-7">
                 <h2 className="fw-bolder">Ivan Loorced</h2>
-                <h5 className="">USA</h5>
+                <p className="">USA</p>
 
                 <span className="star">
                   <AiFillStar size={25} color="yellow" />
@@ -139,7 +139,7 @@ const Testimonial = () => {
             <div className="row justify-content-center">
               <div className="col-7">
                 <h2 className="fw-bolder">Yohei Kamakashi</h2>
-                <h5 className="">UK</h5>
+                <p className="">UK</p>
 
                 <span className="star">
                   <AiFillStar size={25} color="yellow" />
@@ -164,7 +164,7 @@ const Testimonial = () => {
             <div className="row justify-content-center">
               <div className="col-7">
                 <h2 className="fw-bolder">Paula Brown </h2>
-                <h5 className="">US</h5>
+                <p className="">US</p>
 
                 <span className="star">
                   <AiFillStar size={25} color="yellow" />
@@ -186,7 +186,7 @@ const Testimonial = () => {
             <div className="row justify-content-center">
               <div className="col-7">
                 <h2 className="fw-bolder"     >SEAN WILLIAMS</h2>
-                <h5 className="">UK</h5>
+                <p className="">UK</p>
 
                 <span className="star">
                   <AiFillStar size={25} color="yellow" />

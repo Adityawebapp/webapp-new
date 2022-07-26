@@ -3,76 +3,31 @@ import Head from "next/head";
 import { Suspense } from "react";
 import dynamic from "next/dynamic";
 
-const About = dynamic(() => import('../components/About'), {
+const About = dynamic(() => import("../components/About"), {
   ssr: false,
-})
+});
 
-// import About from "../components/About";
-// import CompanyProduct from "../components/CompanyProduct";
+import CompanyProduct from "../components/CompanyProduct";
 
-const CompanyProduct = dynamic(() => import('../components/CompanyProduct'), {
-  ssr: false,
-})
+import GetInTouch from "../components/GetInTouch";
 
+import HowToHelp from "../components/HowToHelp";
 
+import IndustriesWeServe from "../components/IndustriesWeServe";
 
-// import Footer from "../components/footer";
-// import GetInTouch from "../components/GetInTouch";
-const GetInTouch = dynamic(() => import('../components/GetInTouch'), {
-  ssr: false,
-})
-// import HowToHelp from "../components/HowToHelp";
-const HowToHelp = dynamic(() => import('../components/HowToHelp'), {
-  ssr: false,
-})
+import MainHome from "../components/MainHome";
 
-// import IndustriesWeServe from "../components/IndustriesWeServe";
-const IndustriesWeServe = dynamic(() => import('../components/IndustriesWeServe'), {
-  ssr: false,
-})
+import ProcessWeFollow from "../components/ProcessWeFollow";
 
-// import MainHome from "../components/MainHome";
-const MainHome = dynamic(() => import('../components/MainHome'), {
-  ssr: false,
-})
+import ServicesWeOffer from "../components/ServicesWeOffer";
 
-// import TopNavbar from "../components/TopNavbar";
-const TopNavbar = dynamic(() => import('../components/TopNavbar'), {
-  ssr: false,
-})
+import WhyWebapp from "../components/WhyWebapp";
 
-// import Navbar from "../components/Navbar";
-const Navbar = dynamic(() => import('../components/Navbar'), {
-  ssr: false,
-})
+import Testimonial from "../components/Testimonial";
 
-// import ProcessWeFollow from "../components/ProcessWeFollow";
-const ProcessWeFollow = dynamic(() => import('../components/ProcessWeFollow'), {
-  ssr: false,
-})
-
-// import ServicesWeOffer from "../components/ServicesWeOffer";
-const ServicesWeOffer = dynamic(() => import('../components/ServicesWeOffer'), {
-  ssr: false,
-})
-
-// import WhyWebapp from "../components/WhyWebapp";
-const WhyWebapp = dynamic(() => import('../components/WhyWebapp'), {
-  ssr: true,
-})
-
-// import Testimonial from "../components/Testimonial";
-const Testimonial = dynamic(() => import('../components/Testimonial'), {
-  ssr: false,
-})
-
-// import MobileNav from "../components/MobileNav";
-const MobileNav = dynamic(() => import('../components/MobileNav'), {
-  ssr: false,
-})
+import MobileNav from "../components/MobileNav";
 
 import { motion } from "framer-motion";
-
 
 function Home() {
   return (
@@ -91,20 +46,16 @@ function Home() {
         />
       </Head>
 
-     
-  
-        <MainHome />
-        <CompanyProduct />
-        <About />
-        <ServicesWeOffer />
-        <IndustriesWeServe />
-        <WhyWebapp />
-        <ProcessWeFollow />
-        <HowToHelp />
-        <GetInTouch />
-        <Testimonial />
-        
-    
+      <MainHome />
+      <CompanyProduct />
+      <About />
+      <ServicesWeOffer />
+      <IndustriesWeServe />
+      <WhyWebapp />
+      <ProcessWeFollow />
+      <HowToHelp />
+      <GetInTouch />
+      <Testimonial />
     </>
   );
 }
