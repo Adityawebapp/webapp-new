@@ -6,6 +6,7 @@ import Graphic from "./buttonPages/Graphic";
 import Web from "./buttonPages/Web";
 
 import styles from "../../styles/css/quote.module.css";
+import Step2 from "./Step2";
 
 
 const Step1 = ({ formData, setFormData }) => {
@@ -24,7 +25,7 @@ const Step1 = ({ formData, setFormData }) => {
   const [hideotherCompo, sethideotherCompo] = useState(true);
 
 
-  const Fooddata = [
+  const Fooddgdfgddata = [
     { id: 1, name: "User Experience" },
     { id: 2, name: "Mobile App Development" },
     { id: 3, name: "Game Development" },
@@ -34,16 +35,58 @@ const Step1 = ({ formData, setFormData }) => {
   ];
 
 
-
+  const Fooddata = [
+    { id: 1, name: "Graphic Design" },
+    { id: 2, name: "App Development" },
+    { id: 3, name: "Game Development" },
+    { id: 4, name: "Web Development" },
+    { id: 5, name: "Digital Development" },
+    { id: 6, name: "Other" },
+  ];
 
   const handleClick = (data) => {
     console.log(data, "sdfsadf");
     setFormData({...formData, project:data})
-   
+    if (data === "Graphic Design") {
+
+      sethideGraphicCompo(false);
+    
+    } else if (data === "App Development") {
+
+      sethideApplicationCompo(false)
+      sethideGraphicCompo(false);
+
+    } else if (data === "Game Development") {
+
+      sethideGraphicCompo(false);
+
+      sethideGameCompo(false)
+    } else if (data === "Web Development") {
+      sethideWeb(true);
+      sethideGraphicCompo(false);
+
+    } else if (data === "Digital Development") {
+      sethideDigital(true);
+      sethideGraphicCompo(false);
+
+    } else if (data === "Other") {
+      sethideGraphicCompo(false); 
+      return  
+    }
   };
+
+
+
+
+ 
 
   return (
     <>
+     {  hideGraphicCompo ?
+
+
+      <div>
+
       <h1
         className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3"
         style={{ background: "#7175e1" }}
@@ -51,11 +94,9 @@ const Step1 = ({ formData, setFormData }) => {
         Please select the most suitable option.
       </h1>
 
-      {
-
-        hideGraphicCompo ? 
+    
   
-      <div>
+
         <div className="quoteForm d-flex justify-content-center justify-content-center ">
           <div className="w-100">
             <div className="row row-cols-2 g-3 justify-content-center">
@@ -73,8 +114,9 @@ const Step1 = ({ formData, setFormData }) => {
           </div>
         </div>
       </div>
-        : <step2/>
-    }
+      : <Step2 formData={formData} setFormData={setFormData}/>
+
+    } 
 
       {/* {hideApplicationCompo ?   hideGraphic && <Graphic formData={formData} setFormData={setFormData} /> : null  }
 
@@ -87,6 +129,8 @@ const Step1 = ({ formData, setFormData }) => {
       
       { hideotherCompo ?  hideDigital && <Digital formData={formData} setFormData={setFormData}/> : null}
  */}
+
+
 
     </>
   );

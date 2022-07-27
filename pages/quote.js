@@ -18,7 +18,6 @@ const Quote = () => {
   const [page, setPage] = useState(0);
   const [formData, setFormData] = useState({
     project: "",
-    select_Project: "",
     conuntry_name: "",
     conuntry_region: "",
     name: "",
