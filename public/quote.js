@@ -24,7 +24,7 @@ $(document).on("click", "#stepmodule1", function (e) {
    e.preventDefault();
   var data = $(this).attr("data-id");
 
-  if (data == "backstep1" || data == "form1") {
+  if (data == "backstep1" && data == "form1") {
     $("#step1").show();
     $("#step2").hide();
     formdata();

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Game = () => {
+const Game = ({ formData, setFormData }) => {
   const data = [
     { id: 1, name: "2D Games" },
     { id: 2, name: "3D Games" },
@@ -12,14 +12,17 @@ const Game = () => {
   ];
   const handleClick = (e) => {
     console.log("select value", e);
+    setFormData({...formData, select_Project:e})
+
   };
+
 
   return (
     <>
       <h1 className="text-center "> Game</h1>
 
       <div className="quoteForm d-flex justify-content-center ">
-        <div className="w-50">
+        <div className="w-100">
           <div className="row row-cols-3 g-4 justify-content-center">
 
             {data.map((item) => (

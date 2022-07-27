@@ -1,6 +1,6 @@
 import React from "react";
 
-const Digital = () => {
+const Digital = ({ formData, setFormData }) => {
   const data = [
     { id: 1, name: "SEO" },
     { id: 2, name: "PPC" },
@@ -12,6 +12,7 @@ const Digital = () => {
   ];
   const handleClick = (e) => {
     console.log("select value", e);
+    setFormData({...formData, select_Project:e})
   };
 
   return (
@@ -19,7 +20,7 @@ const Digital = () => {
       <h1 className="text-center "> Digital</h1>
 
       <div className="quoteForm d-flex justify-content-center ">
-        <div className="w-50">
+        <div className="w-100">
           <div className="row row-cols-3 g-4 justify-content-center">
 
             {data.map((item) => (

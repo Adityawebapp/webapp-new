@@ -1,6 +1,7 @@
 import React from "react";
 
-const Web = () => {
+const Web = ({ formData, setFormData }) => {
+
   const data = [
     { id: 1, name: "Food" },
     { id: 2, name: "Ecommerce" },
@@ -10,8 +11,11 @@ const Web = () => {
     { id: 6, name: "Laundery" },
     { id: 7, name: "Beauty" },
   ];
+
   const handleClick = (e) => {
     console.log("select value", e);
+    setFormData({...formData, select_Project:e})
+
   };
 
   return (
@@ -19,7 +23,7 @@ const Web = () => {
       <h1 className="text-center "> Web</h1>
 
       <div className="quoteForm d-flex justify-content-center ">
-        <div className="w-50">
+        <div className="w-100">
           <div className="row row-cols-3 g-4 justify-content-center">
 
             {data.map((item) => (

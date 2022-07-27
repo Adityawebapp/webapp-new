@@ -1,6 +1,6 @@
 import React from "react";
 
-const Graphic = () => {
+const Graphic = ({ formData, setFormData }) => {
   const data = [
     { id: 1, name: "Indeisgn" },
     { id: 2, name: "Illustrator " },
@@ -12,6 +12,13 @@ const Graphic = () => {
   ];
   const handleClick = (e) => {
     console.log("select value", e);
+    setFormData({...formData, select_Project:e})
+    if (data === "Graphic Design") {
+      
+      sethideGraphic(true);
+      sethideGraphicCompo(false);
+
+    }
   };
 
   return (

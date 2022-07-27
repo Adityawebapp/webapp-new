@@ -1,6 +1,8 @@
 import React from "react";
 import Script from "next/script";
 import Head from "next/head";
+import { BsFillArrowLeftCircleFill,BsFillArrowRightCircleFill } from 'react-icons/bs';
+
 
 
 
@@ -8,6 +10,7 @@ const GetQuote = () => {
   return (
     <>
     <Script src="/quote.js"  strategy="lazyOnload"/>
+    
 
       <style jsx>{`
          {
@@ -759,11 +762,13 @@ const GetQuote = () => {
                           <div className="row justify-content-center align-items-center">
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-left"
                                   data-id="backstep1"
                                   id="stepmodule1"
-                                ></i>
+                                ></i> */}
+                                <BsFillArrowLeftCircleFill size={40}  data-id="backstep1"
+                                  id="stepmodule1"/>
                               </div>
                             </div>
 
@@ -781,11 +786,13 @@ const GetQuote = () => {
                             </div>
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-right"
                                   data-id="formfield1"
                                   id="stepmodule2"
-                                ></i>
+                                ></i> */}
+                                <BsFillArrowRightCircleFill size={40}   data-id="formfield1"
+                                  id="stepmodule2"/>
                               </div>
                             </div>
                           </div>
@@ -1345,11 +1352,13 @@ const GetQuote = () => {
                           <div className="row justify-content-center align-items-center">
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-left"
                                   id="stepmodule1"
                                   data-id="form1"
-                                ></i>
+                                ></i> */}
+                                <BsFillArrowLeftCircleFill size={40}   id="stepmodule1"
+                                  data-id="form1"/>
                               </div>
                             </div>
                             <div className="col-4">
@@ -1373,6 +1382,8 @@ const GetQuote = () => {
                                   data-id="formFill1"
                                   id="FormBtn"
                                 ></i>
+                                <BsFillArrowRightCircleFill size={40}   data-id="formFill1"
+                                  id="FormBtn"/>
                               </div>
                             </div>
                           </div>
@@ -1850,11 +1861,14 @@ const GetQuote = () => {
                         <div className="row justify-content-center align-items-center">
                           <div className="col-2">
                             <div className="leftIcon">
-                              <i
+                              {/* <i
                                 className="fas fa-arrow-circle-left"
                                 data-id="backbtn2"
                                 id="stepmodule2"
-                              ></i>
+                              ></i> */}
+
+<BsFillArrowLeftCircleFill size={40} data-id="backbtn2"
+                                id="stepmodule2"/>
                             </div>
                           </div>
                           <div className="col-4">
@@ -1878,6 +1892,8 @@ const GetQuote = () => {
                                 data-id="formback3"
                                 id="FormBtn"
                               ></i>
+                              <BsFillArrowRightCircleFill size={40}    data-id="formback3"
+                                id="FormBtn"/>
                             </div>
                           </div>
                         </div>
@@ -1941,11 +1957,13 @@ const GetQuote = () => {
                         <div className="row justify-content-center align-items-center">
                           <div className="col-2">
                             <div className="leftIcon">
-                              <i
+                              {/* <i
                                 className="fas fa-arrow-circle-left"
                                 data-id="formback2"
                                 id="FormBtn"
-                              ></i>
+                              ></i> */}
+                              <BsFillArrowLeftCircleFill    data-id="formback2"
+                                id="FormBtn"/>
                             </div>
                           </div>
                           <div className="col-4">
@@ -1964,11 +1982,13 @@ const GetQuote = () => {
                           </div>
                           <div className="col-2">
                             <div className="leftIcon">
-                              <i
+                              {/* <i
                                 className="fas fa-arrow-circle-right"
                                 data-id="formback4"
                                 id="FormBtn"
-                              ></i>
+                              ></i> */}
+                              <BsFillArrowRightCircleFill size={40}    data-id="formback4"
+                                id="FormBtn"/>
                             </div>
                           </div>
                         </div>
@@ -2031,11 +2051,13 @@ const GetQuote = () => {
                           <div className="row justify-content-center align-items-center">
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-left"
                                   data-id="formback3"
                                   id="FormBtn"
-                                ></i>
+                                ></i> */}
+                                <BsFillArrowLeftCircleFill    data-id="formback3"
+                                  id="FormBtn"/>
                               </div>
                             </div>
                             <div className="col-4">
@@ -2054,11 +2076,13 @@ const GetQuote = () => {
                             </div>
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-right"
                                   data-id="formback5"
                                   id="FormBtn"
-                                ></i>
+                                ></i> */}
+                                  <BsFillArrowRightCircleFill size={40}    data-id="formback5"
+                                id="FormBtn"/>
                               </div>
                             </div>
                           </div>
@@ -2122,11 +2146,13 @@ const GetQuote = () => {
                           <div className="row justify-content-center align-items-center">
                             <div className="col-2">
                               <div className="leftIcon">
-                                <i
+                                {/* <i
                                   className="fas fa-arrow-circle-left"
                                   data-id="formback4"
                                   id="FormBtn"
-                                ></i>
+                                ></i> */}
+                                <BsFillArrowLeftCircleFill   data-id="formback4"
+                                  id="FormBtn"/>
                               </div>
                             </div>
                             <div className="col-4">
