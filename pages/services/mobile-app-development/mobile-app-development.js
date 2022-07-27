@@ -6,6 +6,11 @@ import Image from "next/image";
 import styles from "./mobile-css/mobile-app.module.css";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import CompanyProduct from "../../../components/CompanyProduct";
+import WhyWebapp from "../../../components/WhyWebapp";
+import GetInTouch from "../../../components/GetInTouch";
+import Testimonial from "../../../components/Testimonial";
+import HowToHelp from "../../../components/HowToHelp";
 
 const MobileAppDevelopment = () => {
   return (
@@ -51,8 +56,12 @@ Web developers UK"
         </div>
       </div>
 
-      <div className="mobile_content my-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container web_content_text  bg-gray p-5 rounded">
+     
+<CompanyProduct/>
+
+
+      <div className="mobile_content my-5 wow fadeInUp" data-wow-delay="0.1s" >
+        <div className="container web_content_text  bg-gray p-5" style={{borderRadius: "30px"}}>
           <p>
             Everyone wants to give their business the best app out there. With
             our technical acumen, Webapp’s comprehensive and multi-faceted
@@ -174,7 +183,12 @@ Web developers UK"
       </div>
 
       <IndustriesWeServe/>
+      <WhyWebapp/>
+
       <ProcessWeFollow />
+      <HowToHelp/>
+      <GetInTouch/>
+      <Testimonial/>
     </>
   );
 };

@@ -40,6 +40,9 @@ const Testimonial = () => {
           infinite={true}
           centerPadding="100px"
           arrows={false}
+          slidesToScroll= {1}
+          autoplay= {true}
+            autoplaySpeed= {3000}
         >
           <div className={styles.uppertestiImage}>
             <img
@@ -86,6 +89,7 @@ const Testimonial = () => {
 
         <Slider
           arrows={false}
+          fade={true}
           asNavFor={nav2}
           ref={slider1}
           className="text-center"

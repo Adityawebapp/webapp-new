@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Head from 'next/head'
 import React from "react";
@@ -6,6 +7,7 @@ import ProcessWeFollow from "/components/ProcessWeFollow";
 
 import { motion } from "framer-motion";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
+import GetInTouch from "../../../components/GetInTouch";
 
 const AndroidAppDevelopment = () => {
   return (
@@ -47,9 +49,8 @@ App development services uk"
                 </div>
               </div>
               <div className="col-md-6 col-sm-12  ">
-                <Image
-                  width={700}
-                  height={700}
+                <img
+                  className="img-fluid"
                   src="/images/servies/pagesImage/Android app development tools.png"
                   alt="Android app development tools"
                 />
@@ -66,9 +67,8 @@ App development services uk"
                 data-aos="fade-right"
                 data-aos-duration="500"
               >
-                <Image
-                  width={700}
-                  height={700}
+                <img
+                  className="img-fluid"
                   src="/images/servies/pagesImage/App development services uk.png"
                   alt="App development services uk"
                 />
@@ -266,6 +266,8 @@ App development services uk"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
+
     </>
   );
 };

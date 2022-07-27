@@ -3,11 +3,11 @@ import React from "react";
 const TermsConditions = () => {
   return (
     <>
-      <div className="container bg-light my-5">
+      <div className="container my-5 rounded" >
         <div className="tearms_heading text-center">
           <h1>Terms & Conditions</h1>
         </div>
-        <div className=" tearms_peragraph">
+        <div className=" tearms_peragraph ">
           <div className="tearms_condition_content  mt-5">
             <h3 className="text-capitalize ">Agreement Terms</h3>
             <p>
@@ -21,7 +21,7 @@ const TermsConditions = () => {
             </p>
           </div>
 
-          <hr className="my-4" />
+          <hr className="my-4 text-muted" />
 
           <div className="tearms_condition_content">
             <h3 className="text-capitalize ">Guidelines for Trademark</h3>
@@ -31,7 +31,7 @@ const TermsConditions = () => {
               accessing and using the Webapp website in any way without
               limitation, browsing the website, using any information, content,
               services, downloading any materials, or placing an order for
-              products or services.{" "}
+              products or services.
             </p>
             <p>
               You should not use this website in any way if you do not agree to
@@ -49,7 +49,8 @@ const TermsConditions = () => {
               the Webapp website will mean you accept those changes.
             </p>
           </div>
-          <hr className="my-4" />
+          <hr className="my-4 text-muted" style={{height:"0.5px"}}  />
+
           <div className="tearms_condition_content">
             <h3 className="text-capitalize ">Limitations Of Materials Usage</h3>
             <p>
@@ -69,7 +70,7 @@ const TermsConditions = () => {
               website.
             </p>
           </div>
-          <hr className="my-4" />
+          <hr className="my-4 text-muted" />
 
           <div className="tearms_condition_content">
             <h3 className="text-capitalize ">Rights Restiction</h3>
@@ -83,7 +84,7 @@ const TermsConditions = () => {
               website may be reproduced or retransmitted.
             </p>
           </div>
-          <hr className="my-4" />
+          <hr className="my-4 text-muted" />
 
           <div className="tearms_condition_content">
             <h3 className="text-capitalize ">Promotions and Advertising</h3>
@@ -100,7 +101,7 @@ const TermsConditions = () => {
               result of the presence of non-Webapp advertisers on the website.
             </p>
           </div>
-          <hr className="my-4" />
+          <hr className="my-4 text-muted" style={{height:"0.5px"}}  />
 
           <div className="tearms_condition_content">
             <h3 className="text-capitalize ">General Terms</h3>

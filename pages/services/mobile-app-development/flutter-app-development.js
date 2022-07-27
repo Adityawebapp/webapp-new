@@ -5,6 +5,7 @@ import React from "react";
 import styles from './mobile-css/flutter.module.css'
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const flutterAppDevelopment = () => {
   return (
@@ -270,6 +271,7 @@ Flutter app development company"
         
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
       </>
 
   );

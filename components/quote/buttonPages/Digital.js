@@ -16,7 +16,7 @@ const Digital = () => {
 
   return (
     <>
-      <h1 className="text-center "> get quote</h1>
+      <h1 className="text-center "> Digital</h1>
 
       <div className="quoteForm d-flex justify-content-center ">
         <div className="w-50">

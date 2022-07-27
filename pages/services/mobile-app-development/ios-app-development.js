@@ -6,7 +6,8 @@ import React from "react";
 import CompanyProduct from "/components/CompanyProduct";
 import styles from "./mobile-css/ios.module.css";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
-import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import ProcessWeFollow from "../../../components/ProcessWeFollow"; 
+import GetInTouch from "../../../components/GetInTouch"; 
 
 const IosAppDevelopment = () => {
   return (
@@ -615,6 +616,7 @@ Ios game development services"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

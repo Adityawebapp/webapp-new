@@ -36,8 +36,8 @@ const TopNavbar = () => {
               <div className={styles.MobileEmailnon}>
                 <div className="d-flex align-items-center mx-3">
                   <HiMail size={30} color="#ae0000" className="mx-2" />
-                  <a className="pl-4 fs-6" href="mailto:contact@example.com">
-                    info@webapp.world
+                  <a className="pl-4 fs-6" href="mailto:business@webapp.world">
+                  business@webapp.world
                   </a>
                 </div>
               </div>

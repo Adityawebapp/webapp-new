@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
        
       </Head>
 
-      <div className=" container privacy_policy pb-5">
+      <div className=" container privacy_policy pb-5 my-5">
         <div className="row">
           <div className="section-head col-sm-12">
             <h1 className="text-center text-capitalize my-4">Privacy Policy</h1>
@@ -28,9 +28,9 @@ const PrivacyPolicy = () => {
             </p>
           </div>
         </div>
-        <hr className="my-4" />
+        <hr className="my-4 text-muted" />
 
-        <div className="fs-4 my-4 information_provider">
+        <div className="fs-4 mb-4 information_provider">
           <h3>Information You Provide</h3>
 
           <p>
@@ -43,7 +43,6 @@ const PrivacyPolicy = () => {
             <li className={styles.li}>Phone Number</li>
           </ul>
           <p>
-            {" "}
             While filling out an inquiry form or a feedback form, for instance,
             you`ll be asked to enter the above Personal Information. This
             information helps us to provide a personalised experience for our
@@ -51,9 +50,9 @@ const PrivacyPolicy = () => {
           </p>
         </div>
 
-        <hr className="my-4" />
+        <hr className="my-4 text-muted" style={{height:"0.5px"}} />
 
-        <div className="fs-4 my-4 ip_address">
+        <div className="fs-4 my-4 ip_address" >
           <h3>IP Address</h3>
           <p>
             The site may access your devices location using your internet
@@ -101,7 +100,7 @@ const PrivacyPolicy = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-4" />
+        <hr className="my-4 text-muted" />
         <div className="fs-4 my-4">
           <h3>Email Management</h3>
           <p>
@@ -116,7 +115,7 @@ const PrivacyPolicy = () => {
             Select Your Communication Preferences Using The Same Link.
           </p>
         </div>
-        <hr className="my-4" />
+        <hr className="my-4 text-muted" />
         <div className="fs-4 my-4">
           <h3>When Do We Share And Disclose Your Information?</h3>
           <p>
@@ -260,7 +259,7 @@ const PrivacyPolicy = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-4" />
+        <hr className="my-4 text-muted" style={{height:"0.5px"}} />
         <div className="">
           <h3>Contact Us</h3>
           <p>

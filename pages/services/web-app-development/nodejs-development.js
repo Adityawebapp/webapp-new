@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from './webapp-css/nodejs.module.css'
@@ -59,9 +60,7 @@ Node JS Development Service Provider"
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 header_img1">
-                <Image
-                  width={500}
-                  height={500}
+                <img
                   className="img-fluid"
                   src="/images/servies/pagesImage/Node-JS-Development-Services.png"
                   alt="Node-JS-Development-Services"
@@ -75,9 +74,7 @@ Node JS Development Service Provider"
           <div className="container py-5">
             <div className="row align-items-center" data-aos="zoom-in-right">
               <div className="col-lg-6 col-sm-12 header_img1">
-                <Image
-                  width={600}
-                  height={450}
+                <img
                   className="img-fluid"
                   src="/images/servies/pagesImage/Node JS Development Company.png"
                   alt="Node JS Development Company"

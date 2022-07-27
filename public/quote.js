@@ -10,6 +10,8 @@ $(document).ready(function () {
     "slow"
   );
 });
+
+
 setInterval(() => {
   $("div.logo_img").hide();
   this.hideSection = true;
@@ -17,7 +19,9 @@ setInterval(() => {
 
 // stepper code
 // For Step1
-$(document).on("click", "#stepmodule1", function () {
+
+$(document).on("click", "#stepmodule1", function (e) {
+   e.preventDefault();
   var data = $(this).attr("data-id");
 
   if (data == "backstep1" || data == "form1") {
@@ -107,7 +111,9 @@ $(document).on("click", "#otherfirstbtn", function () {
 });
 
 // For Step2
-$(document).on("click", "#stepmodule2", function () {
+$(document).on("click", "#stepmodule2", function (e) {
+  e.preventDefault();
+
   var data = $(this).attr("data-id");
   if (data == "backbtn2") {
     $("#step2").hide();
@@ -137,7 +143,9 @@ $(document).on("click", "#stepmodule2", function () {
 
 // For Form Step
 
-$(document).on("click", "#FormBtn", function () {
+$(document).on("click", "#FormBtn", function (e) {
+  e.preventDefault();
+
   var data = $(this).attr("data-id");
 
   if (data == "form1" || data == "formback2" || data == "formFill1") {
@@ -247,6 +255,8 @@ $(document).on("click", "#FormBtn", function () {
 
 // particals code start end
 $(document).on("click", "#formSubmit", function (event) {
+  event.preventDefault();
+
   var mainVal = {
     business: $("#stepinput1").val(),
     industries: $("#stepinput2").val(),
@@ -264,6 +274,8 @@ $(document).on("click", "#formSubmit", function (event) {
     data: mainVal,
     dataType: "json",
     encode: true,
+    processData: false,
+    contentType: false,
   }).done(function (data) {
     $('#formSubmit').prop('disabled', false);
     console.log(data);

@@ -10,11 +10,11 @@ const CompanyProduct = () => {
         <div className="container" id="logoMarqueeSection">
           <div className="default-content-container flex items-center">
             <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-              <div className="marquee" style={{ animationDuration: "57s"}}>
+              <div className="marquee" style={{ animationDuration: "57s" }}>
                 <a target="_blank">
                   <img
-                    width={150}
-                    height={150}
+                    width="120px"
+                
                     alt=""
                     src="/images/homeImage/project-done/sharo@2x.png"
                     className="marqueelogo"
@@ -22,8 +22,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={150}
-                    height={80}
+                   width="200px"
+       
                     alt=""
                     src="/images/homeImage/project-done/envolondon.png"
                     className="marqueelogo"
@@ -31,8 +31,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={100}
-                    height={100}
+                    width="60px"
+               
                     alt=""
                     src="/images/homeImage/project-done/hurl.png"
                     className="marqueelogo"
@@ -40,8 +40,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={200}
-                    height={120}
+                     width="180px"
+            
                     alt=""
                     src="/images/homeImage/project-done/invest.png"
                     className="marqueelogo"
@@ -49,8 +49,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={250}
-                    height={100}
+                    width="240px"
+             
                     alt=""
                     src="/images/homeImage/project-done/peng-ting.png"
                     className="marqueelogo"
@@ -58,8 +58,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={130}
-                    height={120}
+                    width="120px"
+        
                     alt=""
                     src="/images/homeImage/project-done/sushiya.png"
                     className="marqueelogo"
@@ -67,8 +67,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={200}
-                    height={100}
+                   width="230px"
+ 
                     alt=""
                     src="/images/homeImage/project-done/tjv.png"
                     className="marqueelogo"
@@ -78,8 +78,8 @@ const CompanyProduct = () => {
               <div className="marquee" style={{ animationDuration: "57s" }}>
                 <a target="_blank">
                   <img
-                    width={150}
-                    height={150}
+                   width="120px"
+
                     alt=""
                     src="/images/homeImage/project-done/sharo@2x.png"
                     className="marqueelogo"
@@ -87,8 +87,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={180}
-                    height={60}
+                    width="200px"
+                    
                     alt=""
                     src="/images/homeImage/project-done/envolondon.png"
                     className="marqueelogo"
@@ -96,8 +96,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={100}
-                    height={100}
+                    width="60px"
+
                     alt=""
                     src="/images/homeImage/project-done/hurl.png"
                     className="marqueelogo"
@@ -105,8 +105,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={200}
-                    height={100}
+                     width="180px"
+            
                     alt=""
                     src="/images/homeImage/project-done/invest.png"
                     className="marqueelogo"
@@ -114,8 +114,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={250}
-                    height={100}
+                     width="240px"
+          
                     alt=""
                     src="/images/homeImage/project-done/peng-ting.png"
                     className="marqueelogo"
@@ -123,8 +123,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                     width={130}
-                    height={120}
+                      width="120px"
+        
                     alt="sushiya"
                     src="/images/homeImage/project-done/sushiya.png"
                     className="marqueelogo"
@@ -132,8 +132,8 @@ const CompanyProduct = () => {
                 </a>
                 <a target="_blank">
                   <img
-                    width={230}
-                    height={100}
+                    width="230px"
+     
                     alt=""
                     src="/images/homeImage/project-done/tjv.png"
                     className="marqueelogo"

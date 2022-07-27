@@ -681,7 +681,7 @@ const HowToHelp = () => {
               <div className="col-lg-6">
                 <img
                   className="img-fluid"
-                  src="../images/homeImage/software development uk.jpg"
+                  src="/images/homeImage/software%20development%20uk.jpg"
                   alt="software development uk"
                 />
               </div>

@@ -5,7 +5,7 @@
 .career-main .right-image img {
   border-bottom-left-radius: 20rem;
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .main_card_div .card-body p {
-  color: #636363;
+  color: #000000;
 }
 
 .card_main_page {
@@ -66,12 +66,13 @@
 }
 
 .card_main_page:hover {
-  background-color: #f94343 !important;
+  background-color: #EEEEEE !important;
+  color: #000000;
 }
 
 .card_main_page:hover .card-body h2,
 .card_main_page:hover .card-body p {
-  color: #eeeeee;
+  color: #000000;
 }
 
 .g-5,
@@ -120,7 +121,7 @@
 /* ======================== */
 
 .currrent-opening {
-  padding: 2rem;
+  padding: 1.3rem;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15) !important;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15) !important;
@@ -138,6 +139,11 @@
   top: 0;
   z-index: -2;
   position: absolute;
+}
+
+.sendCV{
+  display: flex;
+  align-items: center;
 }
 
 .sendCV button {

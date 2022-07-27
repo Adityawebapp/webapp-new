@@ -3,13 +3,15 @@ import Image from "next/image";
 import React from "react";
 import styles from './webapp-css/angular.module.css'
 import { GrInsecure } from 'react-icons/gr';
-import { MdOutlineFeaturedVideo,MdOutlineDesignServices } from 'react-icons/md';
-import { BsJournalCode } from 'react-icons/bs';
-import { FcMultipleDevices } from 'react-icons/fc';
-import { GiScales } from 'react-icons/gi';
+import { MdOutlineSecurity,MdOutlineDesignServices } from 'react-icons/md';
+import { BsCodeSlash,BsFileEarmarkCode } from 'react-icons/bs';
+import { VscMultipleWindows } from 'react-icons/vsc';
+import { MdSettingsSuggest } from 'react-icons/md';
+import { RiUserStarFill } from 'react-icons/ri';
 import Head from 'next/head'
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 
 const AngularDevelopment = () => {
@@ -99,7 +101,6 @@ App development services uk"
                 <h1 className="mb-5 ">
                   <span className="mycolor">Development on </span>
                   <span className="bottom_Textline_center position-relative">
-               
                     Demand
                   </span>
                 </h1>
@@ -144,7 +145,7 @@ App development services uk"
           </div>
         </div>
 
-        <div className="why_choose_angular my-5">
+        <div className="why_choose_angular py-4 bg-gray">
           <div className="container">
             <div className="row align-items-center">
               <div
@@ -340,7 +341,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                    <GrInsecure/>
+                    <BsFileEarmarkCode/>
                     </div>
                     <h5 className="mt-1">Secure Solutions</h5>
                     <p>
@@ -356,7 +357,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                     <MdOutlineFeaturedVideo/>
+                     <MdOutlineSecurity/>
                     </div>
                     <h5 className="mt-1">Features And Functionalities</h5>
                     <p>
@@ -371,7 +372,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <BsJournalCode/>
+                      <BsCodeSlash/>
                     </div>
                     <h5 className="mt-1">Coding With Reusable Components</h5>
                     <p>
@@ -387,7 +388,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <MdOutlineDesignServices/>
+                      <RiUserStarFill/>
                     </div>
                     <h5 className="mt-1">Seamless User Experience</h5>
                     <p>
@@ -403,7 +404,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                        <FcMultipleDevices/>
+                        <VscMultipleWindows/>
                     </div>
                     <h5 className="mt-1">Multi-Platform Support</h5>
                     <p>
@@ -419,7 +420,7 @@ App development services uk"
                 >
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                        <GiScales/>
+                        <MdSettingsSuggest/>
                     </div>
                     <h5 className="mt-1">Scalability</h5>
                     <p>
@@ -437,6 +438,7 @@ App development services uk"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

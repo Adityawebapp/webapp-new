@@ -70,9 +70,7 @@
   font-weight: 700;
 }
 
-.main_card_div .card-body p {
-  color: #636363;
-}
+
 
 .card_main_page {
   background-color: #eeeeee;
@@ -83,7 +81,7 @@
   cursor: pointer;
   height: 29rem;
 }
-
+/* 
 .card_main_page:hover {
   background-color: #f94343;
 }
@@ -91,7 +89,7 @@
 .card_main_page:hover .card-body h2,
 .card_main_page:hover .card-body p {
   color: #eeeeee;
-}
+} */
 
 .g-5,
 .gx-5 {
@@ -393,4 +391,5 @@ button:hover {
   padding: 1em 2em;
   font-weight: 700;
   border-radius: 25px;
+  font-size: 18px;
 }

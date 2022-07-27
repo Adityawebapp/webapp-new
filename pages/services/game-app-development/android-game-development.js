@@ -9,7 +9,11 @@ import GetInTouch from '../../../components/GetInTouch'
 
 import { AiOutlineCodeSandbox,AiOutlineCode,AiOutlineCodepen, } from 'react-icons/ai';
 import {BsCodeSlash,BsCodeSquare,BsCode,BsFileCode,BsFileEarmarkCode } from 'react-icons/bs';
-import {FaLaptopCode } from 'react-icons/fa';
+import {BsTablet } from 'react-icons/bs';
+import {DiAndroid } from 'react-icons/di';
+import {IoLogoGooglePlaystore } from 'react-icons/io5';
+import {zzz } from 'react-icons/io5';
+import {BiSupport } from 'react-icons/bi';
 
 const AndroidGameDevelopment = () => {
   return (
@@ -134,7 +138,7 @@ const AndroidGameDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <AiOutlineCode/>
+                      <DiAndroid/>
                     </div>
                     <h2>Android Development</h2>
                     <p>
@@ -180,7 +184,7 @@ const AndroidGameDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <BsCodeSquare/>
+                      <IoLogoGooglePlaystore/>
                     </div>
                     <h2>Google Play Games Integration</h2>
                     <p>
@@ -223,7 +227,7 @@ const AndroidGameDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <BsFileEarmarkCode/>
+                      <BiSupport/>
                     </div>
                     <h2>Support And Maintenance</h2>
                     <p>
@@ -240,7 +244,7 @@ const AndroidGameDevelopment = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <FaLaptopCode/>
+                      <BsTablet/>
                     </div>
                     <h2>Tablet Development</h2>
                     <p>
@@ -266,7 +270,7 @@ const AndroidGameDevelopment = () => {
               >
                 <div className="language_text main_heading text-center">
                   <h1 className="h3_heading">
-                    <span className="text-ourColor">
+                    <span className="mycolor">
                       Type of Android and Tablet Game
                     </span>
                     <br />
@@ -280,8 +284,8 @@ const AndroidGameDevelopment = () => {
                 <div className="row row-cols-3 row-cols-lg-4 langulage_card p-2 justify-content-center langulage_card">
                   <div className="col language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
+                      <img
+                     
                         width="64px peragraph"
                         src="/images/icon/game/Sports Game.png"
                         alt="Sports Game"
@@ -293,8 +297,8 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
+                      <img
+                      
                         width="64px peragraph"
                         src="/images/icon/game/Shooting Games.png"
                         alt="Shooting Games"
@@ -306,8 +310,8 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
+                      <img
+                     
                         width="64px peragraph"
                         src="/images/icon/game/Racing Games.png"
                         alt="Racing Games"
@@ -319,8 +323,8 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
+                      <img
+                      
                         width="64px peragraph"
                         src="/images/icon/game/Adventure Games.png
                                 "
@@ -336,9 +340,9 @@ const AndroidGameDevelopment = () => {
                 <div className="row langulage_card">
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
-                        width="64px peragraph"
+                      <img
+                      
+                        width="64px"
                         src="/images/icon/game/Multiplayer Games.png"
                         alt="Multiplayer Games"
                       />
@@ -349,9 +353,9 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
-                        width="64px peragraph"
+                      <img
+                       
+                        width="64px"
                         src="/images/icon/game/Puzzle Games.png"
                         alt="Puzzle Games"
                       />
@@ -362,8 +366,8 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
+                      <img
+                       
                         width="64px peragraph"
                         src="/images/icon/game/Fighting Games.png"
                         alt="Fighting Games"
@@ -378,9 +382,9 @@ const AndroidGameDevelopment = () => {
                 <div className="row langulage_card">
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
-                        width="64px peragraph"
+                      <img
+                      
+                        width="64px"
                         src="/images/icon/game/Action Games.png"
                         alt="Action Games"
                       />
@@ -391,9 +395,9 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
-                        width="64px peragraph"
+                      <img
+                       
+                        width="64px"
                         src="/images/icon/game/Board Games.png"
                         alt="Board Games"
                       />
@@ -404,9 +408,9 @@ const AndroidGameDevelopment = () => {
                   </div>
                   <div className="col-4 language_grid">
                     <div className="language_body">
-                      <Image
-                        height="80%"
-                        width="64px peragraph"
+                      <img
+                       
+                        width="64px"
                         src="/images/icon/game/Simulator Games.png"
                         alt="Simulator Games"
                       />
@@ -427,7 +431,7 @@ const AndroidGameDevelopment = () => {
               <div className="card height-card ">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
-                    <Image
+                    <img
                       height="80%"
                       width="85px"
                       src="/images/icon/game/Cost Savings.png"
@@ -452,7 +456,7 @@ const AndroidGameDevelopment = () => {
               <div className="card height-card  border-0">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
-                    <Image
+                    <img
                       height="80%"
                       width="85px"
                       src="/images/icon/game/Custom Games.png"
@@ -476,8 +480,8 @@ const AndroidGameDevelopment = () => {
               <div className="card height-card  border-0">
                 <div className="card-body shadow">
                   <div className="text-center py-3 development_card">
-                    <Image
-                      height="80%"
+                    <img
+                      height="80px"
                       width="85px"
                       src="/images/icon/game/Seamless Game Integration.png"
                       alt="Seamless Game Integration"

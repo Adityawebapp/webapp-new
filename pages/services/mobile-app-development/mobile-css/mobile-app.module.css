@@ -1,5 +1,4 @@
 .image{
-  height: 80vh;
   width: 100%;
   overflow-x: hidden;
 }
@@ -7,6 +6,10 @@
 .web_image {
   position: relative;
   z-index: -2;
+}
+
+.web_image img {
+ height: 100vh;
 }
 
 .web_text {
@@ -22,3 +25,4 @@
   color: #fff;
   line-height: 1;
 }
+

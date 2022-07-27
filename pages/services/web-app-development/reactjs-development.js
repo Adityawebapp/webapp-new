@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import IndustriesWeServe from "/components/IndustriesWeServe";
@@ -11,6 +12,7 @@ import { RiCodeBoxFill } from 'react-icons/ri';
 import { IoCodeDownloadOutline } from 'react-icons/io5';
 import { MdCodeOff } from 'react-icons/md';
 import Head from 'next/head'
+import GetInTouch from "../../../components/GetInTouch";
 
 
 const ReactjsDevelopment = () => {
@@ -60,9 +62,7 @@ React JS Development Services"
               </div>
             
               <div className="col-md-6 col-sm-12 header_img1">
-                <Image
-                  width={600}
-                  height={600}
+                <img
                   className="img-fluid"
                   src="/images/servies/pagesImage/React js development company.png"
                   alt="React js development company"
@@ -72,16 +72,15 @@ React JS Development Services"
           </div>
         </section>
 
-        <div className="Development_on_demand py-6">
+        <div className="bg-gray py-6">
           <div className="container">
             <div className="row align-items-center">
               <div
                 className="col-lg-6 col-sm-12 header_img1"
                 data-aos="fade-right"
               >
-                <Image
-                  width={600}
-                  height={600}
+                   <img
+
                   className="img-fluid"
                   src="/images/servies/pagesImage/react services uk.png"
                   alt="react services uk"
@@ -534,6 +533,7 @@ React JS Development Services"
 
       <IndustriesWeServe />
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

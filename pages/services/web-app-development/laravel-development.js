@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import styles from "./webapp-css/laravel.module.css";
@@ -6,7 +7,7 @@ import { IoCodeWorkingOutline, IoLogoLaravel } from "react-icons/io5";
 import { FaLaravel } from "react-icons/fa";
 import { GoFileCode } from "react-icons/go";
 import { HiShoppingCart } from "react-icons/hi";
-import { SiLaravelhorizon } from "react-icons/si";
+import { BiWindows } from "react-icons/bi";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
@@ -66,9 +67,8 @@ Laravel development company"
                 </div>
               </div>
               <div className="col-md-6 col-sm-12 header_img1 text-end  ">
-                <Image
-                  width={500}
-                  height={500}
+                <img
+                
                   className="img-fluid"
                   src="/images/servies/pagesImage/Laravel-Development-Services.png"
                   alt="Laravel Development Services"
@@ -78,7 +78,7 @@ Laravel development company"
           </div>
         </section>
 
-        <div className="Development_on_demand">
+        <div className="bg-gray">
           <div className="container py-5">
             <div className="row align-items-center">
               <div
@@ -86,9 +86,8 @@ Laravel development company"
                 data-aos="fade-right"
                 data-aos-offset="300"
               >
-                <Image
-                  width={600}
-                  height={500}
+                <img
+
                   className="img-fluid"
                   src="/images/servies/pagesImage/Laravel-development-agency.png"
                   alt="Laravel-development-agency"
@@ -379,7 +378,7 @@ Laravel development company"
                 <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                   <div className="web-why-choose-us-inner-box mhbox shadow">
                     <div className="web-why-choose-inner-icon shadow">
-                      <SiLaravelhorizon />
+                      <BiWindows />
                     </div>
                     <h2>Web Portal Development</h2>
                     <p>

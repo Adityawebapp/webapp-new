@@ -6,6 +6,11 @@ import styles from "./latest-css/latest-app.module.css";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import WhyWebapp from "../../../components/WhyWebapp";
+import GetInTouch from "../../../components/GetInTouch";
+import HowToHelp from "../../../components/HowToHelp";
+import Testimonial from "../../../components/Testimonial";
+import CompanyProduct from "../../../components/CompanyProduct";
 
 const LatestAppTrends = () => {
   return (
@@ -33,7 +38,7 @@ Trends in software application"
         <div className={styles.web_image}>
           <img
              width="100%"
-             style={{height: "90vh",backgroundSize: "cover"}}
+             style={{height: "100%"}}
             src="/images/servies/pagesImage/latest-technologies.png"
             alt="latest-technologies"
           />
@@ -49,8 +54,10 @@ Trends in software application"
         </div>
       </div>
 
+      <CompanyProduct/>
+
       <div className="mobile_content my-4">
-        <div className="container web_content_text">
+        <div className="container web_content_text bg-gray p-5" style={{borderRadius:"30px"}}>
           <p>
             Speaking of the latest technologies in web development and trends in
             software application, Webapp offers Blockchain, AR/VR, and IoT
@@ -83,8 +90,8 @@ Trends in software application"
         </div>
       </div>
 
-      <div className="container">
-        <div className="development_services my-6">
+      <div className="container my-5">
+        <div className="development_services">
           <div className="text-center top_text py-5">
             <h1>
               <span className="mycolor"> Latest Technologies </span>
@@ -184,8 +191,13 @@ Trends in software application"
         </div>
       </div>
 
+
       <IndustriesWeServe/>
+      <WhyWebapp/>
       <ProcessWeFollow />
+      <HowToHelp/>
+      <GetInTouch/>
+      <Testimonial/>
     </>
   );
 };

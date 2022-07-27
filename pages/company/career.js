@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import GetInTouch from '../../components/GetInTouch'
 
 
 const Career = () => {
@@ -63,14 +64,14 @@ Webapp is one of the top trusted Software development company in the UK which is
 
         <div className="container">
           <div className="career_card my-5">
-            <div className="text-center top_text">
-              <h1 className="mb-5">
+            <div className="text-center">
+              <h1 className="mb-3">
                 <span className="mycolor">Perks To Work With </span>
                 <span className="bottom_Textline_center position-relative text-black">
                   Webapp
                 </span>
               </h1>
-              <p className="my-5">
+              <p className=" mb-5">
                 We also recognise the importance of a healthy work-life balance
                 and support our employees in their endeavours. We offer
                 excellent facilities with innovative office buildings. These are
@@ -82,8 +83,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       src="/images/career/work_hours.png"
                       className="card-img-top"
                       alt="Flexible work hours"
@@ -103,8 +104,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       src="/images/career/Work_Environment.png"
                       className="card-img-top"
                       alt="Work Environment"
@@ -124,8 +125,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">
                     <Image
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       src="/images/career/insurance_plan.png"
                       className="card-img-top"
                       alt="Insurance Plan"
@@ -178,7 +179,7 @@ Webapp is one of the top trusted Software development company in the UK which is
                     <p className="card-text">
                       Webapp values real talent and everyone gets their fair
                       share of pay, plus a great performance bonus that we think
-                      we offer when we see our employees give more than 100%.
+                      we offer when we see our employees give more than 80%.
                       The hard work and dedication of the staff are never wasted
                       on Webapp. We believe in success, so there is no benchmark
                       for the right skills.
@@ -215,7 +216,7 @@ Webapp is one of the top trusted Software development company in the UK which is
         <div className="Interview_process">
           <div className="container">
             <div className="career_card my-6">
-              <div className="text-center Interview_process_heading top_text">
+              <div className="text-center Interview_process_heading ">
                 <h1 className="m-0">
                   <span className="bottom_Textline_center position-relative text-dark m-0">
                     Interview Process
@@ -234,7 +235,7 @@ Webapp is one of the top trusted Software development company in the UK which is
                     style={{ height: "33rem" }}
                   >
                     <div className="">
-                      <img src="/images/career/HR.jpg" className="card-img-top" alt="HR ROUND" />
+                      <img  src="/images/career/HR.jpg" className="card-img-top" alt="HR ROUND" style={{borderRadius: "1.2rem"}} />
                     </div>
                     <div
                       className="text-start shadowcard position-absolute bottom-0 px-3"
@@ -328,8 +329,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                   </a>
                 </Link>
                 <img
-                  width={50}
-                  height={20}
+                  width={30}
+                  height={10}
                   src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
                   alt=""
                 />
@@ -354,8 +355,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                   </a>
                 </Link>
                 <img
-                  width={50}
-                  height={20}
+                  width={30}
+                  height={10}
                   src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
                   alt=""
                 />
@@ -380,8 +381,8 @@ Webapp is one of the top trusted Software development company in the UK which is
                   </a>
                 </Link>
                 <img
-                  width={50}
-                  height={20}
+                  width={30}
+                  height={10}
                   src="../../images/career/Icon ionic-ios-arrow-round-forward@2x.png"
                   alt=""
                 />
@@ -390,6 +391,8 @@ Webapp is one of the top trusted Software development company in the UK which is
           </div>
         </div>
       </section>
+
+      <GetInTouch/>
     </>
   );
 };

@@ -59,7 +59,6 @@ Django python mobile development"
               </div>
               <div className="col-md-6 col-sm-12 header_img1 text-center">
                 <img
-             
                   className="img-fluid"
                   src="/images/servies/pagesImage/Django-for-Web-Development.png"
                   alt="Django-for-Web-Development"

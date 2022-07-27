@@ -48,7 +48,7 @@ li a {
   padding: 1rem;
 }
 
-.fs-6{
+.fs-14{
   font-size: 14px!important;
 }
 
@@ -56,6 +56,9 @@ li a {
   font-size: 15px!important;
 }
 
+.fs-18{
+  font-size: 18px!important;
+}
 
 
 
@@ -88,6 +91,11 @@ li a {
 .navbar {
   z-index: 9;
 }
+
+.selected {
+  background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+}
+
 
 /* navbar css add in navbar.js   */
 .navbar .megamenu {

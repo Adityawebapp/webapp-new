@@ -12,12 +12,13 @@
 
 .web_text {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 5%;
 }
 
 
 .web_text h1{
     font-size: 4rem;
-    font-weight: 7000;
+    font-weight: 700;
+    line-height:1;
 }

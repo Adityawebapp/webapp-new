@@ -8,13 +8,13 @@ import OurTeam from "/Helper/Team";
 import Head from "next/head";
 import { BsArrowRightCircle } from "react-icons/bs";
 
-const About = () => {
+const WhoWeAre = () => {
   var whoweAre = {
     dots: false,
     infinite: true,
     slidesToShow: 5,
     autoplay: true,
-    speed: 10000,
+    speed: 8000,
     autoplaySpeed: 2000,
     pauseOnHover: false,
     arrows: false,
@@ -85,8 +85,8 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="card card_main_page shadow">
                 <div className="svg-career-icon">
                   <Image
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     src="/images/about/aboutGIF/overVision.svg"
                     className="card-img-top"
                     alt="overVision"
@@ -106,8 +106,8 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="card card_main_page shadow">
                 <div className="svg-career-icon">
                   <Image
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     src="/images/about/aboutGIF/ourMisson.png"
                     className="card-img-top"
                     alt="ourMisson"
@@ -130,8 +130,8 @@ Webapp is one of the top trusted Software development company in the UK which is
               <div className="card card_main_page shadow">
                 <div className="svg-career-icon">
                   <Image
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                     src="/images/about/aboutGIF/ourCoreValue.svg"
                     className="card-img-top"
                     alt="ourCoreValue"
@@ -208,7 +208,7 @@ Webapp is one of the top trusted Software development company in the UK which is
 
             <div className="col-md-6 d-flex justify-content-center align-items-center  ">
               <img
-                width="100%"
+                width="80%"
                 height="atuo"
                 src="/images/about/who_we_are.png"
                 alt="software development companies uk"
@@ -332,4 +332,4 @@ Webapp is one of the top trusted Software development company in the UK which is
   );
 };
 
-export default About;
+export default WhoWeAre;

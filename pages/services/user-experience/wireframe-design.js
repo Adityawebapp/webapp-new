@@ -5,6 +5,7 @@ import styles from "./user-css/wireframe.module.css";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import GetInTouch from "../../../components/GetInTouch";
 
 const WireframeDesign = () => {
   return (
@@ -163,6 +164,7 @@ Wireframe Design"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <GetInTouch/>
     </>
   );
 };

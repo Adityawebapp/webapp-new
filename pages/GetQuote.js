@@ -7,8 +7,7 @@ import Head from "next/head";
 const GetQuote = () => {
   return (
     <>
-    <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" />
-    <Script src="/quote.js" />
+    <Script src="/quote.js"  strategy="lazyOnload"/>
 
       <style jsx>{`
          {

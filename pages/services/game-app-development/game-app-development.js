@@ -5,6 +5,11 @@ import Head from "next/head";
 import styles from "./game-css/game-development.module.css";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import CompanyProduct from "../../../components/CompanyProduct";
+import HowToHelp from "../../../components/HowToHelp";
+import GetInTouch from "../../../components/GetInTouch";
+import Testimonial from "../../../components/Testimonial";
+import WhyWebapp from "../../../components/WhyWebapp";
 
 const GameAppDevelopment = () => {
   return (
@@ -50,8 +55,13 @@ Game development companies"
         </div>
       </div>
 
+
+      <CompanyProduct/>
+
+
+
       <div className="mobile_content my-5 wow fadeInUp">
-        <div className="container web_content_text">
+        <div className="container web_content_text bg-gray p-5" style={{borderRadius: "30px"}}>
           <p>
             As the gaming industry transforms into a mighty multi-billion-dollar
             substance, the need for games released to the market is increasing.
@@ -86,9 +96,9 @@ Game development companies"
       <section>
         <div className="follow_process mb-5">
           <div className="text-center">
-            <h2>
+            <h2 className="fw-bolder">
               <span className="mycolor"> Game Development </span>
-              <span className="border-bottom"> Services </span>
+              <span className="bottom_Textline_center position-relative"> Services </span>
             </h2>
           </div>
           <div className="follow_process_main mt-5">
@@ -117,19 +127,20 @@ Game development companies"
                       audience.
                     </p>
                   </div>
-
+                  <div className="text-start w-100">
                   <Link href="/game-app-development/ios-game-development">
-                    <a className="nav-link moreBtn nav-link mt-5">
+                    <a className="nav-link morebtn mt-5">
                       Read More<i className="ti-arrow-right "></i>
                     </a>
                   </Link>
+                  </div>
                 </div>
               </div>
 
-              <div className="row sm-column-reverse text-sm-center">
+              <div className="row sm-column-reverse text-sm-center align-items-center">
                 <div className="col-md-7 follow_process_end wow fadeInLeft">
                   <div className="text-lg-end text-sm-start">
-                    <h2>
+                    <h2 className="fw-bolder">
                       <span className="mycolor"> IOS Game </span>
                       <span className="bottom_Textline_center position-relative">
                         Development
@@ -142,12 +153,13 @@ Game development companies"
                       a number of 2D and 3D iPhone games in different genres.
                     </p>
                   </div>
-
+                 <div className="text-end ">
                   <Link href="/game-app-development/Android-game-development">
-                    <a className="nav-link moreBtn nav-link mt-5">
+                    <a className="nav-link morebtn  mt-5">
                       Read More<i className="ti-arrow-right "></i>
                     </a>
                   </Link>
+                  </div>
                 </div>
                 <div className="col-md-5 text-end wow fadeInRight Best-IOS-game-development">
                   <img
@@ -163,8 +175,12 @@ Game development companies"
       </section>
 
 
-      <IndustriesWeServe/>
+      <WhyWebapp/>
       <ProcessWeFollow />
+      <ProcessWeFollow />
+      <HowToHelp/>
+      <GetInTouch/>
+      <Testimonial/>
     </>
   );
 };

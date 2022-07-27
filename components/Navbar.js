@@ -8,7 +8,7 @@ import {
   SiLaravel,
   SiDjango,
   SiFigma,
-  SiAdobeindesign,
+  SiAdobexd,
   SiPrivateinternetaccess,
   SiBlockchaindotcom,
 } from "react-icons/si";
@@ -17,8 +17,9 @@ import { GiArtificialHive } from "react-icons/gi";
 import { motion } from "framer-motion";
 import MobileNav from "./MobileNav";
 import TopNavbar from "./TopNavbar";
-import { BsFillPeopleFill } from "react-icons/bs";
+import { BsFillPeopleFill,BsCurrencyBitcoin } from "react-icons/bs";
 import { MdEmojiPeople } from "react-icons/md";
+import { IoThunderstormOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -85,7 +86,7 @@ const Navbar = () => {
                   aria-labelledby="companyId"
                 >
                   <li>
-                    <Link href="/company/about" >
+                    <Link href="/company/WhoWeAre" >
 
                       <mkota className="dropdown-item pointer">
                      <BsFillPeopleFill size={20} style={{marginRight:"15px"}} className="mb-1 mr-3" /> <span style={{fontSize:"14px"}}> Who We Are?  </span>  
@@ -144,7 +145,7 @@ const Navbar = () => {
                                 scale: 1.1,
                               }}
                               transition={{ type: "spring", stifness: 900 }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <AiFillApple fontSize={33} />
@@ -165,7 +166,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <AiFillAndroid fontSize={33} />
@@ -186,7 +187,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <RiFlutterFill fontSize={33} />
@@ -228,7 +229,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <RiReactjsFill fontSize={33} />
@@ -250,7 +251,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <RiAngularjsFill fontSize={33} />
@@ -271,7 +272,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <SiPhp fontSize={33} />
@@ -292,7 +293,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <SiLaravel fontSize={33} />
@@ -313,7 +314,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <FaNodeJs fontSize={33} />
@@ -334,7 +335,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <SiDjango fontSize={33} />
@@ -376,7 +377,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <AiFillApple fontSize={33} />
@@ -397,7 +398,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <AiFillAndroid fontSize={33} />
@@ -439,7 +440,7 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <SiFigma fontSize={33} />
@@ -458,10 +459,10 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
-                                <SiAdobeindesign fontSize={33} />
+                                <SiAdobexd fontSize={33} />
                               </span>
                               <span className="col-lg-9 col-md-9 d-flex justify-content-start">
                                 <p className="fs-6 text-dark m-0">
@@ -473,7 +474,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="col mb-4">
+                    <div className="col mb-4" style={{overflow: 'hidden'}}>
                       <Link href="/services/latest-app-trends/latest-app-trends">
                         <a className="hoverNone">
                           <div className="service_heading_nav d-flex justify-content-start align-items-center">
@@ -500,12 +501,12 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
-                                <SiPrivateinternetaccess fontSize={33} />
+                                <IoThunderstormOutline fontSize={33} />
                               </span>
-                              <span className="col-lg-9 col-md-9 d-flex justify-content-start">
+                              <span className="col-lg-9 col-md-9 d-flex justify-items-center">
                                 <p className="fs-6 text-dark m-0">IOT</p>
                               </span>
                             </motion.a>
@@ -519,12 +520,12 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
-                                <SiBlockchaindotcom fontSize={33} />
+                                <BsCurrencyBitcoin fontSize={33} />
                               </span>
-                              <span className="col-lg-9 col-md-9 d-flex justify-content-start">
+                              <span className="col-lg-9 col-md-9 d-flex justify-items-start">
                                 <p className="fs-6 text-dark m-0">Blockchain</p>
                               </span>
                             </motion.a>
@@ -538,12 +539,12 @@ const Navbar = () => {
                                 scale: 1.1,
                                 
                               }}
-                              className="nav-link text-small pb-0 d-flex align-content-center pointer"
+                              className="nav-link text-small pb-0 d-flex align-items-center pointer"
                             >
                               <span className="col-lg-3 col-sm-3 col-md-3 text-dark">
                                 <GiArtificialHive fontSize={33} />
                               </span>
-                              <span className="col-lg-9 col-md-9 d-flex justify-content-start">
+                              <span className="col-lg-9 col-md-9 d-flex justify-items-start">
                                 <p className="fs-6 text-dark m-0">AR/VR</p>
                               </span>
                             </motion.a>

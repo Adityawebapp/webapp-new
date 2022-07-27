@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "./user-css/user-experience.module.css";
 import Image from "next/image";
@@ -5,6 +6,11 @@ import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
 import Link from "next/link";
+import CompanyProduct from "../../../components/CompanyProduct";
+import HowToHelp from "../../../components/HowToHelp";
+import GetInTouch from "../../../components/GetInTouch";
+import Testimonial from "../../../components/Testimonial";
+import WhyWebapp from "../../../components/WhyWebapp";
 
 const UserExperience = () => {
   return (
@@ -31,9 +37,8 @@ User experience examples"
 
       <div className="web_homePage">
         <div className={styles.web_image}>
-          <Image
-            width={2000}
-            height={900}
+          <img
+            width="100%"
             src="/images/servies/pagesImage/User-Experience.png"
             alt="User-Experience"
           />
@@ -48,8 +53,10 @@ User experience examples"
         </div>
       </div>
 
+<CompanyProduct/>
+
       <div className="mobile_content my-4 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container web_content_text  bg-light rounded-5 p-5">
+        <div className="container web_content_text  bg-gray rounded-5 p-5" style={{borderRadius:"30px"}}>
           <p>
             Optimising user experience is essential. Aesthetics and
             functionality or UI/UX design have irreplaceable importance in the
@@ -142,11 +149,11 @@ User experience examples"
                       tradition and trends.
                     </p>
                   </div>
-
+                  <div className="text-start w-100">
                   <Link href="/user-experience/user-experience">  
                    <a className={styles.morebtn}>
                     Read More<i className="ti-arrow-right"></i>
-                  </a></Link>
+                  </a></Link></div>
                 </div>
               </div>
 
@@ -192,7 +199,12 @@ User experience examples"
       </section>
 
       <IndustriesWeServe/>
+      <WhyWebapp/>
       <ProcessWeFollow />
+      <ProcessWeFollow />
+      <HowToHelp/>
+      <GetInTouch/>
+      <Testimonial/>
     </>
   );
 };

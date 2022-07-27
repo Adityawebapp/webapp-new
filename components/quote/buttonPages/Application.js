@@ -21,7 +21,7 @@ const Application = () => {
 
   return (
     <>
-      <h1 className="text-center "> get quote</h1>
+      <h1 className="text-center "> Application</h1>
 
       <div className="quoteForm d-flex justify-content-center ">
         <div className="w-50">

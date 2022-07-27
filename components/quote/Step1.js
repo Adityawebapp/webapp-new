@@ -8,7 +8,14 @@ import Web from "./buttonPages/Web";
 import styles from '../../styles/css/quote.module.css'
 
 const Step1 = ({ formData, setFormData }) => {
-  const [state, setState] = useState("Graphic Design");
+  const [hideGraphic, sethideGraphic] = useState(false);
+  const [hideApplication, sethideApplication] = useState(false);
+  const [hideGame, sethideGame] = useState(false);
+  const [hideWeb, sethideWeb] = useState(false);
+  const [hideDigital, sethideDigital] = useState(false);
+
+  const [hideCompo, sethideCompo] = useState(false);
+
 
   const Fooddata = [
     { id: 1, name: "Graphic Design" },
@@ -19,25 +26,38 @@ const Step1 = ({ formData, setFormData }) => {
     { id: 6, name: "Other" },
   ];
 
-  const pageDisplay = () => {
-    if (Fooddata == 0) {
-      return <Step1 />;
-    } else if (Fooddata == 1) {
-      return <Application />;
-    } else if (Fooddata == 2) {
-      return <Digital />;
-    } else if (Fooddata == 3) {
-      return <Game />;
-    } else if (Fooddata == 4) {
-      return <Web />;
-    }
-  };
+
 
   const handleClick = (data) => {
-    console.log(data);
+    console.log(data,"sdfsadf");
 
-    setState(true  );
+    if(data === "Graphic Design") {
+      sethideGraphic(true);
+      sethideCompo(false)
+      
+    }
+    else if(data === "App Development") {
+      sethideApplication(true);
+    }
+    else if(data === "Game Development") {
+      sethideGame(true);
+    }
+    else if(data === "Web Development") {
+      sethideWeb(true);
+    }
+    else if(data === "Digital Development") {
+      sethideDigital(true);
+    }
+    else if(data === "Other") {
+      return <h1>other component</h1>
+    }
+
+  
+
   };
+
+
+
 
   return (
     <>
@@ -61,6 +81,30 @@ const Step1 = ({ formData, setFormData }) => {
               </div>
             </div>
           </div>
+
+
+{
+  hideGraphic  && <Graphic/>
+}
+
+{
+  hideApplication  && <Application/>
+}
+
+{
+  hideGame  && <Game/>
+}
+
+{
+  hideWeb  && <Web/>
+}
+{
+  hideDigital  && <Digital/>
+}
+
+
+
+
     
       
    

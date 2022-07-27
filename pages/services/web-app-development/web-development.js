@@ -6,6 +6,10 @@ import styles from "./webapp-css/web.module.css";
 import Head from "next/head";
 import IndustriesWeServe from "../../../components/IndustriesWeServe";
 import ProcessWeFollow from "../../../components/ProcessWeFollow";
+import HowToHelp from "../../../components/HowToHelp";
+import Testimonial from "../../../components/Testimonial";
+import GetInTouch from "../../../components/GetInTouch";
+import CompanyProduct from "../../../components/CompanyProduct";
 
 const WebAppDevelopment = () => {
   return (
@@ -37,7 +41,7 @@ Web development companies uk"
         <div className={styles.web_image}>
           <img
              width="100%"
-             style={{height: "90vh",backgroundSize: "cover"}}
+             style={{height: "100vh",backgroundSize: "cover"}}
             src="/images/servies/pagesImage/Website-Development.png"
             alt="Website-Development"
 
@@ -53,8 +57,12 @@ Web development companies uk"
         </div>
       </div>
 
+
+<CompanyProduct/>
+
+
       <div className="mobile_content my-5">
-        <div className="container web_content_text bg-light p-4 rounded">
+        <div className="container web_content_text bg-gray p-5"  style={{borderRadius: '30px'}}>
           <p>
             If you want creative UK website application development services,
             you`ve come to the right place! At Webapp we have designed many
@@ -257,6 +265,10 @@ Web development companies uk"
 
       <IndustriesWeServe/>
       <ProcessWeFollow />
+      <ProcessWeFollow />
+      <HowToHelp/>
+      <GetInTouch/>
+      <Testimonial/>
     </>
   );
 };
