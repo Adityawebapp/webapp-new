@@ -3,7 +3,6 @@ margin: 3rem 0;
 }
 
 #logoMarqueeSection {
-  max-width: 1920px !important;
   margin: 0 auto;
   overflow: hidden;
 }

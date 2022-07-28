@@ -130,7 +130,7 @@ Web developers UK"
                 </div>
               </a>
             </Link>
-            <a routerLink="/mobile-app-development/ios-app-development">
+            <a >
               <div className="col main_card_div text-center">
                 <div className="card card_main_page shadow">
                   <div className="svg-career-icon">

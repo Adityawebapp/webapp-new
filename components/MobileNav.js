@@ -6,9 +6,11 @@ import {  MdNavigateNext } from "react-icons/md";
 import {  AiOutlineClose } from "react-icons/ai";
 import Script from "next/script";
 const MobileNav = () => {
+  const openBzutton = ()=>{
+    alert("ram")
+  }
   return (
     <>
-      <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" />
       <Script id="show-banner" strategy="lazyOnload">
         {`
         
@@ -66,6 +68,9 @@ $("").click(function () {
         
         `}
       </Script>
+
+
+      
       <style jsx>
         {`
 
@@ -344,7 +349,7 @@ closelevel > i {
       </style>
 
       <div className="fixed-top bg-white mb-5">
-        {/* <div className="mobile_mumber_header">
+        <div className="mobile_mumber_header">
           <div className="d-flex justify-content-center">
             <img src="" alt="" />
             <div className="d-flex align-items-center">
@@ -357,7 +362,7 @@ closelevel > i {
               <a href="tel:+91120-4549471">+91 120-4549471</a>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <nav>
           <ul className="pushNav js-topPushNav" id="js-topPushNav">

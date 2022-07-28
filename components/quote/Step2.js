@@ -4,19 +4,20 @@ import {
   RegionDropdown,
   CountryRegionData,
 } from "react-country-region-selector";
-
+import styles from "../../styles/css/quote.module.css";
 const Step2 = ({ formData, setFormData }) => {
 
   return (
     <>
-      <div className="d-flex align-content-center justify-content-center">
-        <div className="">
         <h1 className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3" style={{background: "#7175e1"}}> Please enter your country and country code</h1>
+      <div className="">
+        <div className="mx-5">
 
           <div className="row">
             <div className="col-6">
               <CountryDropdown
-                className="form-select"
+                
+                className={ ` ${styles.inputDesign}    form-select `}
                 value={formData.conuntry_name}
                 onChange={(countryEvent) =>
                   setFormData({
@@ -27,9 +28,9 @@ const Step2 = ({ formData, setFormData }) => {
               />
             </div>
 
-            <div className="col-6">
+            <div className="col-lg-6 col-sm-12">
               <RegionDropdown
-                className="form-select"
+                className={ ` ${styles.inputDesign}    form-select `}
                 country={formData.conuntry_name}
                 value={formData.conuntry_region}
                 onChange={(event) =>

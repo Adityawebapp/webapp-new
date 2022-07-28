@@ -22,7 +22,7 @@ const MainHome = () => {
       <section className={styles.heroSec}>
         <img className="hero-image" src="/images/bg/home_image.jpg" />
         <img
-          className={styles.mobileImage}
+          className="mobileImage"
           src="/images/bg/mobile_image.jpg   " />
 
         <div className={styles.imageOverlay}>
@@ -41,7 +41,7 @@ const MainHome = () => {
                   We always strive for excellence with each and every Mobile App
                   and <br/> Website we build
                 </p>
-                <a routerLink="getintouch">
+                <a >
                   <button className={styles.homeBtn}>
                     Get In Touch
                   </button>

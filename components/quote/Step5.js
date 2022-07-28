@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/bootstrap.css";
+import styles from "../../styles/css/quote.module.css";
+
 
 const Step5 = ({ formData, setFormData }) => {
   const [phone, setPhone] = useState("");
@@ -12,11 +14,12 @@ const Step5 = ({ formData, setFormData }) => {
         <h1 className="text-center fs-6 p-1 text-white bg-blue rounded fw-light mb-3" style={{background: "#7175e1"}}> Please Enter phone number </h1>
 
           <form>
-            <div className="mb-3 text-start">
-              <label htmlFor="exampleInputEmail1" className="form-label fw-bold ">
-                Name
+            <div className="mb-3 text-start mx-5">
+              <label htmlFor="exampleInputEmail1" className="form-label fw-bold">
+                Mobile No.
               </label>
               <PhoneInput
+                className={`${styles.inputDesign} `}
                 inputStyle={{width:"100%"}}
                 country={"eg"}
                 enableSearch={true}
