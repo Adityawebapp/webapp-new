@@ -20,9 +20,7 @@ const Testimonial = () => {
     setNav2(slider2.current);
   }, []);
 
-
-
-  var settings  = {
+  var settings = {
     responsive: [
       {
         breakpoint: 1024,
@@ -30,35 +28,38 @@ const Testimonial = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  }
-
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <>
-      <div style={{padding:"20px 0", textAlign: "center",overflow: "hidden" }}>
-        <div  className="section_title py-4">
-          <h1 >
-            <span  className="mycolor"> WHAT OUR CLIENTS </span>
-            <span  className="bottom_Textline_center position-relative">SAY</span>
+      <div
+        style={{ padding: "20px 0", textAlign: "center", overflow: "hidden" }}
+      >
+        <div className="section_title py-4">
+          <h1>
+            <span className="mycolor"> WHAT OUR CLIENTS </span>
+            <span className="bottom_Textline_center position-relative">
+              SAY
+            </span>
           </h1>
         </div>
         <Slider
@@ -72,16 +73,10 @@ const Testimonial = () => {
           infinite={true}
           centerPadding="100px"
           arrows={false}
-          slidesToScroll= {1}
-          autoplay= {true}
-          autoplaySpeed= {3000}
-       
+          slidesToScroll={1}
+          autoplay={true}
+          autoplaySpeed={3000}
           {...settings}
-        
-     
-        
-  
-            
         >
           <div className={styles.uppertestiImage}>
             <img
@@ -132,9 +127,6 @@ const Testimonial = () => {
           asNavFor={nav2}
           ref={slider1}
           className="text-center"
-     
-
-        
         >
           <div>
             <div className="row justify-content-center">
@@ -231,7 +223,7 @@ const Testimonial = () => {
           <div>
             <div className="row justify-content-center">
               <div className="col-7">
-                <h2 className="fw-bolder"     >SEAN WILLIAMS</h2>
+                <h2 className="fw-bolder">SEAN WILLIAMS</h2>
                 <p className="">UK</p>
 
                 <span className="star">

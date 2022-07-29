@@ -30,7 +30,7 @@ const Contact = () => {
 
   const onSubmit = (data) =>{
     axios
-    .post("http://3.9.246.8/api/common/email-form",  data )
+    .post("https://hurl.webapp.world/api/common/email-form",  data )
     .then((res) => {
       toast.success("mail submit successfully", {
         position: "top-center",

@@ -187,7 +187,7 @@ const Quote = () => {
                           console.log(formData)
                           // =============== end api code  =============
                           axios
-                            .post(`http://3.9.246.8/api/common/email-form`,formData)
+                            .post(`https://hurl.webapp.world/api/common/email-form`,formData)
                             .then((res) => {
                               console.log(res);
 

@@ -6,9 +6,7 @@ import {  MdNavigateNext } from "react-icons/md";
 import {  AiOutlineClose } from "react-icons/ai";
 import Script from "next/script";
 const MobileNav = () => {
-  const openBzutton = ()=>{
-    alert("ram")
-  }
+
   return (
     <>
       <Script id="show-banner" strategy="lazyOnload">

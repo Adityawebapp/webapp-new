@@ -22,7 +22,7 @@ const Footer = () => {
     console.log(data, "formdata");
 
     axios
-      .post("https://api.webapp.world/userMail",  data )
+      .post("https://hurl.webapp.world/api/common/email-form",  data )
       .then((res) => {
         toast.success("mail submit successfully", {
           position: "top-center",
